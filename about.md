@@ -7,7 +7,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="img/favicon.png" align="center"></p>
+    <p><img src="/img/favicon.png" align="center"></p>
 </center>
 
 我是琉璃康康，沉浮于世，似是而为。
