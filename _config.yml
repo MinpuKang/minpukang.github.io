@@ -1,8 +1,8 @@
 # Site settings
-title: 似水流年
-header-img: "img/green.jpg"
+title: 琉璃康康
+header-img: "img/home.jpg"
 tagline: "cn"  
-description: "琉璃康康|似水流年"  
+description: "琉璃苣的花语是勇气"  
 baseurl: ""
 url: ""  
 
@@ -13,7 +13,7 @@ url: ""
 #  bio: ""
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
+#gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
 douban_username:  
