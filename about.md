@@ -6,10 +6,6 @@ header-img: "img/about.jpg"
 ---
 
 
-<center>
-    <p><img src="/img/favicon.png" align="center"></p>
-</center>
-
 我是琉璃康康，琉璃取自花语为勇气的琉璃苣，康康是被大家的惯称。
 
 ###从事行业：

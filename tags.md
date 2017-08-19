@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "分解的因子，一类异类！"  
+description: "分解的因子，异类一类！"  
 header-img: "img/tags.jpg"  
 ---
 
