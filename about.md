@@ -7,6 +7,8 @@ header-img: "img/about.jpg"
 
 
 我是琉璃康康，琉璃取自花语为勇气的琉璃苣，康康是被大家的惯称。
+现居：大连
+Email ：kangminpu@126.com
 
 ###从事行业：
 
