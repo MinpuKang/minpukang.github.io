@@ -44,8 +44,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "HK"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      author: "琉璃康康"
+      header-img: "img/post.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
