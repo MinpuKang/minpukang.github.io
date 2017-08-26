@@ -5,7 +5,7 @@ description: "分解的因子，异类一类！"
 header-img: "img/tags.jpg"
 ---
 
-##因子列表
+#### 因子列表
 
 
 <div id='tag_cloud'>
