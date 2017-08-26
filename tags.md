@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Tags"
-description: "分解的因子，异类一类！"  
-header-img: "img/tags.jpg"  
+description: "分解的因子，异类一类！"
+header-img: "img/tags.jpg"
 ---
 
 ##因子列表
@@ -26,7 +26,7 @@ header-img: "img/tags.jpg"
 {% endfor %}
 </ul>
 
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
