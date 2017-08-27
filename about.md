@@ -11,6 +11,9 @@ header-img: "img/about.jpg"
 
 Email ：kangminpu@126.com
 
+个人公众号：[七禾页话（qiheyehk）](http://mp.weixin.qq.com/profile?src=3&timestamp=1503802145&ver=1&signature=bzC02M5Sz61WnRfi9OL2zH7Z1AAGUQUwIRXF3O0ZhK1QD-gtTAB2HlVTuCj70PXaETleq503VGsTYwKUbC0fGw==)
+
+LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 
 ### 从事行业：
 
@@ -25,5 +28,10 @@ Email ：kangminpu@126.com
 - 旅游：一颗流浪的心，时刻准备带着妞儿行走在路上，目前因为工作的原因走过菲律宾的马尼拉（生活了一年四个月）、三次不同视角的Tagatay-大雅台、第一次的海岛游导致念念不忘的长滩岛，泰国的曼谷（生活了六个月）、清迈、普吉岛、最爱的象岛（第一次看到的日出，最近大火的真人秀中餐厅拍摄地）、还有被各种赞誉的苏梅岛，还去过中东的巴林，还有以美女著称的乌克兰首都基辅，顺便囫囵吞枣的玩儿过了济州岛、土耳其、印尼的巴厘岛，国内的呼伦贝尔大草原、哈尔滨、上海、苏州、杭州、无锡、南京、广州、佛山。
 - 游泳：小时候就知道狗刨，大学开始学习游泳，现在蛙泳、自由泳、蝶泳（额，蝶的囫囵吞枣）都能来几手。
 
+------------
+最后放一张广州小蛮腰的日落，希望喜欢～
+![广州小蛮腰][1]
 
+
+  [1]: http://imglf0.nosdn.127.net/img/d1lUUXJDdTYyTEZKN1gwRDMvdmRrT3NZYkptNWo2ZEZKN3hjTm5iQ0pYZlhmaEtvT2hqSWpRPT0.jpg?imageView&thumbnail=3000y2000&type=jpg&quality=96&stripmeta=0&type=jpg
 
