@@ -5,6 +5,16 @@ description: "嘿，我在这里等你很久了！"
 header-img: "img/about.jpg"
 ---
 
+<style>
+img{
+  display:block;
+  margin:0
+  auto;
+}
+</style>
+
+<meta name="referrer" content="never">
+
 我是琉璃康康，琉璃取自花语为勇气的琉璃苣，康康是被大家的惯称。
 
 现居：大连
