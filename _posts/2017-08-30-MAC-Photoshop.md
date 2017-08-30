@@ -181,7 +181,9 @@ b、由于权限问题，先将hosts文件复制到其他地方比如桌面并�
 
 以上就是本教程的全部内容，也欢迎点击下方二维码关注公众号——七禾页话，了解更多内容。
 
-破解软件下载链接：[MAC-Photoshop，密码:nz9r，链接：http://pan.baidu.com/s/1cLawhC ](http://pan.baidu.com/s/1cLawhC )
+Mac破解Photoshop软件下载链接：[http://pan.baidu.com/s/1cLawhC](http://pan.baidu.com/s/1cLawhC )，密码：nz9r。
+
+其他Mac下的Adobe软件可以关注公众号后留言或者公众号文章回复咨询。
 
 ------------
 <p align="center">欢迎关注公众号：</p>
