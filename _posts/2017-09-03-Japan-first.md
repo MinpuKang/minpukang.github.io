@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 飞往霓虹
+title: 飞往霓虹之国
 date: 2017-09-03
 categories: blog
 tags: [日本]
