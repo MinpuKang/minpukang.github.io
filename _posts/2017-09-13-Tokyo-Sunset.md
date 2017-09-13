@@ -3,7 +3,7 @@ layout: post
 title: 晚霞，让水天一色
 date: 2017-09-13
 categories: blog
-tags: [日本，晚霞]
+tags: [日本, 晚霞]
 description: 漫天的紫红色霞光，伴随着人工的灯光点点，倒影在河水中水天一色！
 ---
 
