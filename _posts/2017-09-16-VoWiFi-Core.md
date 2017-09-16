@@ -3,7 +3,7 @@ layout: post
 title: 咦？我用Wi-Fi打了个Call
 date: 2017-09-16
 categories: blog
-tags: [通信，WiFi]
+tags: [通信, WiFi]
 description: 既然Wi-Fi无处不在，那么也让它来帮我们做最快最稳的连接吧！
 ---
 
@@ -85,7 +85,7 @@ Wi-Fi Calling又称为Untrusted Wi-Fi，因为这套方案的无线接入既可�
 
 MCC+MNC即PLMN定义了此ePDG所属的运营商是谁。
 
-** Note：**当然FQDN不是完全固定的，比如在测试阶段，可以随意规划，只要定义的域名能解析成功即可，再或者直接在手机中配置ePDG SWu的IP地址都是可以的。
+** Note：** 当然FQDN不是完全固定的，比如在测试阶段，可以随意规划，只要定义的域名能解析成功即可，再或者直接在手机中配置ePDG SWu的IP地址都是可以的。
 
 手机配置完毕之后在连接WiFi之后，手机通过DHCP从DHCP server中拿到外层地址，同时得到DNS server的IP。
 
