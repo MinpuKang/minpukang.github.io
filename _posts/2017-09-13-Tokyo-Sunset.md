@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 晚霞，让水天一色
+title: 用慢门，记录一个绚丽的晚霞
 date: 2017-09-13
 categories: blog
 tags: [日本, 晚霞]
