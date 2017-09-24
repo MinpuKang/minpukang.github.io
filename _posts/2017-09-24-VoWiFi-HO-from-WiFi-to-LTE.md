@@ -17,7 +17,7 @@ img{
 
 <meta name="referrer" content="never">
 
-这是Wi-Fi Calling的第三篇，聊一聊用户是怎么从Wi-Fi Handover(切换)到LTE。
+这是Wi-Fi Calling的第三篇，聊一聊用户是怎么从Wi-Fi Handover(切换)到LTE的。
 
 之前我们说VoWiFi这套方案作为VoLTE业务的补充，从而解决覆盖死角等等不足，因此也必然需要跟LTE进行无缝切换才能达到最完美的补充。
 
@@ -27,11 +27,11 @@ img{
 
 因此从WiFi到LTE的切换也就是只涉及到IMS这个APN的PDN，所以也可以称为是一个PDN的切换过程。
 
-## 1、Handover拓扑和用户状态
+## 1、Handover前拓扑和用户状态
 
-![HO from WiFi to LTE拓扑][3]
+![HO from WiFi to LTE前拓扑][3]
 
-Handover的网络拓扑图上图所示，无需过多解释。
+Handover的网络拓扑图上图所示，不再过多解释。
 
 需要注意的是在切换之前的用户状态，绿色的表示用户在LTE下的Session，紫色的表示在Wi-Fi下的Session，也就是说在发生WiFi到LTE切换之前是需要用户同时注册在LTE和WiFi上的，而且LTE上的Session也就是其LTE附着时候建立的默认上网的PDN，WiFi下的Session就是IMS的PDN来承载语音业务的。
 
@@ -76,9 +76,9 @@ LTE注册要求：
 
 - 2、当MME收到一个带有**Handover** Type的PDN建立请求之后，需要得到其在Wi-Fi时使用的PGW的IP地址，因此从PDN建立请求中获取APN，并得到HSS提供的此APN下的**AVP: MIP6-Agent-Info**中的PGW信息：
     + 如果是**AVP: MIP-Home-Agent-Address**，也就是一个PGW IP地址，那么MME可以直接发送** Create Session Request**来建立GTP Tunnel。
-    + 如果是一个**AVP: MIP-Home-Agent-Host**，也就是一个PGW ID(FQDN)，MME可以有如下两种行为：
-        * 第一种是直接使用整个PGW ID进行一个A/AAAA的DNS查询，但是弊端就是MME无法知道此PGW是否支持S5/S8的Service。
-        * 第二种就是拿到这个PGW ID后，根据协议规则，取出ID中的**canonical-node-name**，然后进行一个NAPTR的DNS查询，这样MME收到返回结果之后需要进行服务匹配(**x-3gpp-pgw:x-s5-gtp:x-s8-gtp**，以PGW使用GTP协议为例)成功之后，最终再得到PGW的S5/S8 IP。
+    + 如果是**AVP: MIP-Home-Agent-Host**，也就是一个PGW ID(FQDN)，MME可以有如下两种行为：
+        - 第一种是直接使用整个PGW ID进行一个A/AAAA的DNS查询，但是弊端就是MME无法知道此PGW是否支持S5/S8的Service。
+        - 第二种就是拿到这个PGW ID后，根据协议规则，取出ID中的**canonical-node-name**，然后进行一个NAPTR的DNS查询，这样MME收到返回结果之后需要进行服务匹配(**x-3gpp-pgw:x-s5-gtp:x-s8-gtp**，以PGW使用GTP协议为例)成功之后，最终再得到PGW的S5/S8 IP。
     + 通过以上的过程，MME最终得到PGW的S5/S8 IP地址，同时SGW的S11 IP地址已经在一开始的LTE附着获取到了。
 
 - 3、MME开始GTP Tunnel的建立，发送一个**Handover Indication**为**True**的Create Session Request到SGW，然后SGW经过信息更新(SGW的S5/S8信息)之后发给PGW，Handover标签如下图所示：
@@ -114,7 +114,16 @@ PGW完成LTE的Session建立之后，发起Wi-Fi Session的释放，这个释放
 
 同时如果用户是带有电话的切换，此时，需要建立LTE中的专载来承载语音业务，从而保证用户从Wi-Fi切换到LTE之后所有语音业务不间断。
 
+## 5、Handover后拓扑和用户状态
+Handover完成后用户依然有两个PDN，一个是一直在LTE中的上网PDN，另一个就是从Wi-Fi切换过来的IMS的PDN，之后的用户Session状态如下图所示：
+
+![HO from WiFi to LTE前拓扑][9]
+
 以上就是Wi-Fi到LTE的Handover(切换)内容，欢迎公众号留言讨论。
+
+PS：最近迷上了晚霞和星芒，周末两天终于把这个Handover整理完了，所以下午去台场亲近一下大自然顺便参观了一下日本的小自由女神像，然后得到了下边这种晚霞下的台场夜景，星芒效果超级喜欢(不过场景太乱了【捂脸】)：
+
+![台场晚霞][10]
 
 ------------
 <p align="center">欢迎关注公众号：</p>
@@ -126,11 +135,14 @@ PGW完成LTE的Session建立之后，发起Wi-Fi Session的释放，这个释放
   [0]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCZ6gG5NJjutfc6ZHJLrS03l9SOZbtcUVZpjg7KpA8mLsSEk8FZjlicsluXXorAoDAKFBIQWDBtr0g/0?wx_fmt=jpeg
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAoGfjsaJt2NQ0a9AKmrIRoR9gKlX1I78Z4AoPtjyEPM56slw9gAQBdAHjHckbw4h93FvVVATBuLQ/0?wx_fmt=jpeg
   [2]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD3anvFetwgNHv3X1AiaXIzWPvazEMIEralm9vs42XsVfoniaXRCSkSpNpz9icsIYFgq84Eic2whLdAfg/0?wx_fmt=jpeg
-  [3]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eCVXF0y3exHiaibQOag6l9tia1fnXRIibgJGBKVmzlEefe39TLjyqVR2Lh0us8cgNVzZWzRA8wZN0Zkjw/0?wx_fmt=png
+  [3]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdv2WlZrZsd1yFnnopudFWR4BgWJxlMzRA2HeSxZqTfS8a5zJ77wB0MQ/0?wx_fmt=png
   [4]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjd7cMmQoRicfRq1nFxGicb4h6ia2wSNU6zDJksFDSn05qU8af0UxnxTWRAg/0?wx_fmt=png
   [5]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdJRkhIrKicG5ga0t921b06tpWdgKlnUR4oNUa4ckuE1M5EGf13vXPbOQ/0?wx_fmt=png
   [6]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdbsB0oFMfribQXLhQVCMadKqQKxNe09oOB1UVQR1icLJ6UnYGwiazORIkA/0?wx_fmt=png
   [7]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdL6l9E8e49VfCnhnGnHkGuY5IIgAhicHHXjj8f2TNe1WJ6aCcYLTHxeA/0?wx_fmt=png
+  [8]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdqJy7xARasK7YLPJeTGCvibjOsWcpr57FyEOCxWLUOV9vkGiaIDhVUkUQ/0?wx_fmt=jpeg
+  [9]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjddIQuaQFlfMIM9Q2N2AxqxSR6V0uZnPv5pcp3pDbSxYnzY31mziaRNSA/0?wx_fmt=png
+  [10]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eC047Wv5lpgqYIlpqMPhjjdQNdFhLJgoEGTo31AHXl03GkbUfhkXeVxoyziakAE1ficEHkl2hRe2icAQ/0?wx_fmt=jpeg
 
 
 
