@@ -17,7 +17,7 @@ img{
 
 <meta name="referrer" content="never">
 
-写在最前：有朋友留言给我了很多的鼓励，在此表示深深的感谢，感谢大家的支持和鼓励，看到文章能给大家带来知识的拓展、提供些许帮助，实在是我莫大的荣幸。
+**写在最前：**公号后台收到朋友的留言给我了很多的鼓励，在此表示深深的感谢，感谢大家的支持和鼓励，看到文章能给大家带来知识的拓展、提供些许帮助，实在是我莫大的荣幸。
 
 今天继续Wi-Fi的话题。
 
@@ -31,7 +31,7 @@ img{
 - 二斧为[从Wi-Fi到LTE的切换(Handover)](http://minpukang.github.io/blog/2017/09/24/VoWiFi-HO-from-WiFi-to-LTE/)。
 - 三斧就是今天要说的从LTE切换(Handover)到Wi-Fi的招式。
 
-而今天要写的虽然是Wi-Fi第四篇文章，但是却是Wi-Fi三板斧里的第三斧。
+而今天要写的虽然是Wi-Fi第四篇文章，但是却是Wi-Fi三板斧里的第三斧——从LTE回到Wi-Fi的切换过程。
 
 在从Wi-Fi到LTE的切换中，我们说其只涉及到一个IMS PDN的切换，同样从LTE到Wi-Fi也是只涉及到IMS的这一个PDN。
 
@@ -66,9 +66,9 @@ img{
 ## 3、从LTE到Wi-Fi的切换流程
 接下来梳理一下从LTE到Wi-Fi的Handover的信令流程，结合了3GPP和自己测试的总结，在某一些信令流程的时候各个厂家的实现可能会不太一样，但是步骤应该不会缺少，信令流程图如下：
 
-![HO from LTE to WiFi 信令1][5]
+![HO from LTE to WiFi 信令1][4]
 
-![HO from LTE to WiFi 信令2][6]
+![HO from LTE to WiFi 信令2][5]
 
 #### 3.1、Precondition(前提)：
 切换前提就是用户已经完成了LTE的注册并且完成了IMS PDN的连接和IMS网络的注册，同时如**章节3**所说，在IMS PDN连接完成后，MME必须要将IMS所使用的PGW ID(FQDN)通过Notify消息上报给HSS。
@@ -78,15 +78,15 @@ img{
 
 - 1、第一个不同就是在第一个**IKE_AUTH MID=01 Request**中，也就是信令图中的第3步，用户需要将在LTE的时候PGW分配的IP地址，我们也称其为Wi-Fi中的内层地址上报给ePDG，但是在初始附着的时候必然不会带任何的内层地址，如下图所示(这个是一个残缺数据包，因为理论上在**Payload: Configuration (47)**中会同步请求P-CSCF的地址，当然这个是终端的行为，都可以通过刷机等手段改变)：
 
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRkAXMNlbWJP1SwFjVShNF1fZH054lic477KvNKvkftIjSYvzIAN5TtXw/0?wx_fmt=jpeg" width="80%" height="50%" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRRvqYgUarNFrXUtqeryU2OYibAVJIrmmr5n3ic72v8n3Hf9dSribiaChKaA/0?wx_fmt=jpeg" width="80%" height="50%" />
 
 - 2、第二个不同就是，在切换的时候，第二个**Diameter-EAP Answer**中，也就是信令图中的第15步，AAA必须要将HSS中下发的APN(IMS)对应的PGW ID(FQDN)下发给ePDG，如下图所示：
 
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRqwCkoE2DMORiamIHpwkb5w52ldhEavOicXMf48QX1Xs4NHd7qcptfrCA/0?wx_fmt=jpeg" width="80%" height="50%" />
 
-- 3、ePDG通过**IKE_AUTH MID=01 Request**判断了这是一个切换过程，通过第15步的**Diameter-EAP Answer**得到了用户在LTE时候使用的PGW ID(FQDN)，接下来第18步，ePDG发起了DNS的请求来查找PGW的S2b VIP，也已经在**章节3**中详述。
+- 3、ePDG通过**IKE_AUTH MID=01 Request**判断出这是一个切换过程，通过第15步的**Diameter-EAP Answer**得到了用户在LTE时候使用的PGW ID(FQDN)，接下来第18步，ePDG发起了DNS的请求来查找PGW的S2b VIP，而此处必须使用PGW ID(FQDN)进行DNS查询，而不是APN的FQDN，具体内容已经在**章节3**中详述。
 
-- 4、ePDG通过以上步骤得到了PGW的S2b VIP，在信令图第19步开始发送一个带有切换标志的**Create Session Request**给PGW，如图所示：
+- 4、ePDG通过以上步骤得到了PGW的S2b VIP，在信令图第19步开始发出一个带有切换标志的**Create Session Request**给PGW，如图所示：
 
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRmyIIPj9HQQIADSC2iaIibETyIURmI1OCtQmSVHbt5ibTia7SoXZ6deT1hA/0?wx_fmt=jpeg" width="80%" height="50%" />
 
@@ -103,7 +103,7 @@ img{
 ## 4、Handover后拓扑和用户状态
 Handover完成后用户依然有两个PDN，一个是一直在LTE中的上网PDN，另一个就是切换到Wi-Fi之后的IMS PDN，之后的用户Session状态如下图所示：
 
-![HO from LTE to Wi-Fi后的拓扑][10]
+![HO from LTE to Wi-Fi后的拓扑][6]
 
 以上就是LTE到Wi-Fi的Handover(切换)内容，欢迎公众号留言讨论。
 
@@ -118,13 +118,9 @@ Handover完成后用户依然有两个PDN，一个是一直在LTE中的上网PDN
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAoGfjsaJt2NQ0a9AKmrIRoR9gKlX1I78Z4AoPtjyEPM56slw9gAQBdAHjHckbw4h93FvVVATBuLQ/0?wx_fmt=jpeg
   [2]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD3anvFetwgNHv3X1AiaXIzWPvazEMIEralm9vs42XsVfoniaXRCSkSpNpz9icsIYFgq84Eic2whLdAfg/0?wx_fmt=jpeg
   [3]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDPleibln3nibwV8ZWQC8VfMTOmvqajZyGG561mGwciaq7Pliaj5vIyhqRtHUcNZfTOrRmQMcZiceW2cCg/0?wx_fmt=png
-  [4]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNR9KX3GjOtOTluLgD7kYLA6giaDe96iaV4yJRX3oAVchV3EBB4VQlwShug/0?wx_fmt=jpeg
-  [5]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRGSIZGwMA9cias4HF6pJLYaByMHIm4p7csxbNOCqk8O4N8sfffnsj9Yw/0?wx_fmt=png
-  [6]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNR1FvLueENEiaOKibyF353kiabrdMcR5Gt2V4y4Hltd8tt3vZXFz7JfYWBw/0?wx_fmt=png
-  [7]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRkAXMNlbWJP1SwFjVShNF1fZH054lic477KvNKvkftIjSYvzIAN5TtXw/0?wx_fmt=jpeg
-  [8]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRqwCkoE2DMORiamIHpwkb5w52ldhEavOicXMf48QX1Xs4NHd7qcptfrCA/0?wx_fmt=jpeg
-  [9]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRmyIIPj9HQQIADSC2iaIibETyIURmI1OCtQmSVHbt5ibTia7SoXZ6deT1hA/0?wx_fmt=jpeg
-  [10]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRRnDQqLQKkXrmibde3UOy2JwkJePyczZcqx8rY98obNrIbOicCR3QXbUg/0?wx_fmt=png
+  [4]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRGSIZGwMA9cias4HF6pJLYaByMHIm4p7csxbNOCqk8O4N8sfffnsj9Yw/0?wx_fmt=png
+  [5]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNR1FvLueENEiaOKibyF353kiabrdMcR5Gt2V4y4Hltd8tt3vZXFz7JfYWBw/0?wx_fmt=png
+  [6]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eAvIAp9Yfa68OQetd71duNRRnDQqLQKkXrmibde3UOy2JwkJePyczZcqx8rY98obNrIbOicCR3QXbUg/0?wx_fmt=png
 
 
 
