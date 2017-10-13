@@ -21,7 +21,7 @@ img{
 
 Email ：kangminpu@126.com
 
-个人公众号：[七禾页话（qiheyehk）](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxNjIyNzM0Mw==&scene=124&#wechat_redirect)
+个人公众号：[七禾页话（qiheyehk）](https://mp.weixin.qq.com/profile?src=3&timestamp=1507898956&ver=1&signature=bzC02M5Sz61WnRfi9OL2zH7Z1AAGUQUwIRXF3O0ZhK1QD-gtTAB2HlVTuCj70PXaEpqNKn9GMlOiqFTiR3Ui9Q==)
 
 LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 
@@ -44,4 +44,5 @@ LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 
 
   [1]: http://imglf0.nosdn.127.net/img/d1lUUXJDdTYyTEZKN1gwRDMvdmRrT3NZYkptNWo2ZEZKN3hjTm5iQ0pYZlhmaEtvT2hqSWpRPT0.jpg?imageView&thumbnail=3000y2000&type=jpg&quality=96&stripmeta=0&type=jpg
+  [2]: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxNjIyNzM0Mw==&scene=124&#wechat_redirect
 

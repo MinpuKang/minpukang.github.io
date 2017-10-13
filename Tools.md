@@ -16,6 +16,8 @@ header-img: "img/tool.jpg"
 
 [3GPP官网](http://www.3gpp.org/)
 
+[DNS Config Generator](https://github.com/MinpuKang/DNS-Config-Generator)
+
 ### 摄影
 
 [摄影笔记](http://www.sybj.com/)
@@ -27,7 +29,7 @@ header-img: "img/tool.jpg"
 [图虫](https://tuchong.com/)
 
 
-### Service 
+### Service
 
 [GitHub](https://github.com/)
 
