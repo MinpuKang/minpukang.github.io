@@ -30,7 +30,7 @@ img{
 ## 1、多终端的Wi-Fi calling
 先来看一个视频，是美国T-Mobile的DIGITS的介绍（通过QuickTime Player录制和iMovies剪辑，已经上传到腾讯[https://v.qq.com/x/page/x0557btqbu8.html](https://v.qq.com/x/page/x0557btqbu8.html)）：
 
-<iframe height= 400 width= 100% src="http://v.qq.com/iframe/player.html?vid=x0557btqbu8" frameborder=0 allowfullscreen></iframe>
+<iframe frameborder="0" width="100%" height="400" src="https://v.qq.com/iframe/player.html?vid=x0557btqbu8&tiny=0&auto=0" allowfullscreen></iframe>
 
 大家也可以点击T-Mobile官网查看[https://www.t-mobile.com/offers/t-mobile-digits?icid=WMM_TM_Q317NAVIGA_PHX8J88ZA9679](https://www.t-mobile.com/offers/t-mobile-digits?icid=WMM_TM_Q317NAVIGA_PHX8J88ZA9679)
 
