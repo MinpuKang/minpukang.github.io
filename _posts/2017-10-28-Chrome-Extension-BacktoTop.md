@@ -17,15 +17,15 @@ img{
 
 <meta name="referrer" content="never">
 
-在使用很多网站时想回到页面顶部的时候都想为什么不设计加入一键Top的功能呢，这个用户体验也太不友好了。
+在使用很多网站想回到页面顶部的时候都想为什么不加入一键Top的功能呢，这个用户体验也太不友好了。
 
-所以这几天就想写一个类似功能的扩展插件，经过几天的学习和了解，今天终于编写了一个谷歌浏览器的插件。
+所以这几天就想写一个此功能的扩展插件，经过几天的学习和了解，今天终于写了这个谷歌浏览器的插件——Back to Top。
 
 主要通过调用chrome.tabs API的executeScript来执行window.scroll函数回滚到顶部坐标：
 
 - **chrome.tabs.executeScript(integer tabId, object details, function callback)**
 
-具体可参考**[chrome tabs API：https://developer.chrome.com/extensions/tabs#method-executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)**以及**[scroll函数介绍https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)**。
+具体可参考**[chrome tabs API](https://developer.chrome.com/extensions/tabs#method-executeScript)**以及**[scroll函数介绍](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)**。
 
 插件已经发布到Google APP里，欢迎使用：
 
