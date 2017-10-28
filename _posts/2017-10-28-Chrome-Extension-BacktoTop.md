@@ -19,13 +19,21 @@ img{
 
 在使用很多网站时想回到页面顶部的时候都想为什么不设计加入一键Top的功能呢，这个用户体验也太不友好了。
 
-所以这几天就想写一个类似功能的扩展插件，经过几天的学习和了解，今天终于写完了一个谷歌浏览器的插件，已经发布到Google APP里，欢迎下载使用。
+所以这几天就想写一个类似功能的扩展插件，经过几天的学习和了解，今天终于编写了一个谷歌浏览器的插件。
 
-[Back To Top 插件：https://chrome.google.com/webstore/detail/back-to-top/mhofnmfmcbeckfemdbfhfbgomilhlaeh](https://chrome.google.com/webstore/detail/back-to-top/mhofnmfmcbeckfemdbfhfbgomilhlaeh)
+主要通过调用chrome.tabs API的executeScript来执行window.scroll函数回滚到顶部坐标：
+
+- **chrome.tabs.executeScript(integer tabId, object details, function callback)**
+
+具体可参考**[chrome tabs API：https://developer.chrome.com/extensions/tabs#method-executeScript](https://developer.chrome.com/extensions/tabs#method-executeScript)**以及**[scroll函数介绍https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)**。
+
+插件已经发布到Google APP里，欢迎使用：
+
+[Back To Top插件链接：https://chrome.google.com/webstore/detail/back-to-top/mhofnmfmcbeckfemdbfhfbgomilhlaeh](https://chrome.google.com/webstore/detail/back-to-top/mhofnmfmcbeckfemdbfhfbgomilhlaeh)
 
 <img src="https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDEw9gNsp2fPs4HGY15nTgruacAd8w9ibKhhPW0zMzvHfQibQ2ibyt6YgGt3B5MYNRr0oIXNRQ1C04YQ/0?wx_fmt=png" width="70%" />
 
-效果如下：
+使用效果如下：
 ![Chrome扩展BackToTop][4]
 
 什么？国内下载不了？
