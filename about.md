@@ -19,7 +19,7 @@ img{
 
 现居：中国大连
 
-Email ：kangminpu@126.com
+Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
 个人公众号：七禾页话（qiheyehk）
 
