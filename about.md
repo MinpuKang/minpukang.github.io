@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "嘿，我在这里等你很久了！"
+description: "嘿，朋友，我在这里等你很久了！"
 header-img: "img/about.jpg"
 ---
 
@@ -17,11 +17,11 @@ img{
 
 我是琉璃康康，琉璃取自花语为勇气的琉璃苣，康康是被大家的惯称。
 
-现居：大连
+现居：中国大连
 
 Email ：kangminpu@126.com
 
-个人公众号：[七禾页话（qiheyehk）](https://mp.weixin.qq.com/profile?src=3&timestamp=1507898956&ver=1&signature=bzC02M5Sz61WnRfi9OL2zH7Z1AAGUQUwIRXF3O0ZhK1QD-gtTAB2HlVTuCj70PXaEpqNKn9GMlOiqFTiR3Ui9Q==)
+个人公众号：七禾页话（qiheyehk）
 
 LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 
