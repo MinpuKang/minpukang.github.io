@@ -108,10 +108,14 @@ layout: default
 </article>
 
 
-
+{% if site.duoshuo_username %}
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"cnfeat"};
+    // dynamic User by Hux
+    var _user = '{{site.duoshuo_username}}';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
     (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
@@ -122,7 +126,28 @@ var duoshuoQuery = {short_name:"cnfeat"};
     })();
 </script>
 <!-- 多说公共JS代码 end -->
+{% endif %}
 
+
+{% if site.disqus_username %}
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{page.id}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
+
+{% if site.anchorjs %}
 <!-- async load function -->
 <script>
     function async(u, c) {
@@ -134,7 +159,6 @@ var duoshuoQuery = {short_name:"cnfeat"};
       s.parentNode.insertBefore(o, s);
     }
 </script>
-
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
     async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
@@ -143,7 +167,7 @@ var duoshuoQuery = {short_name:"cnfeat"};
           placement: 'right',
           icon: '#'
         };
-        anchors.add().remove('.intro-header h1').remove('.subheading');
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
 </script>
 <style>
@@ -157,3 +181,4 @@ var duoshuoQuery = {short_name:"cnfeat"};
         }
     }
 </style>
+{% endif %}
