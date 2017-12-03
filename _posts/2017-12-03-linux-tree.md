@@ -41,7 +41,7 @@ img{
 
 修改之后的脚本使用如下：
 
-#####a. 帮助参数-h|--help:
+##### a. 帮助参数-h|--help:
 ```
 [coreuser@HK-CentOS ~]$ tree -h
 This is used to list a directory with a dendritical structure
@@ -53,7 +53,7 @@ Examples:
    $ tree /etc/opt
    $ tree ..
 ```
-#####b. 使用举例：
+##### b. 使用举例：
 ```
 [coreuser@HK-CentOS ~]$ tree
 
@@ -100,7 +100,7 @@ ls: 无法打开目录./om_admin: 权限不够
 
 ```
 
-#####c. 最终代码：
+##### c. 最终代码：
 ```
 #!/bin/sh
 ########################################################
