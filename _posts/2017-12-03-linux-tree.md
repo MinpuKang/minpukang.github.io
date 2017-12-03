@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux下树桩显示文件夹结构的一个脚本
+title: Linux下树状显示文件夹结构的一个脚本
 date: 2017-12-03
 categories: blog
 tags: [Linux, tree]
