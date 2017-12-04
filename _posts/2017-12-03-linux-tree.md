@@ -143,15 +143,21 @@ if [[ "$1" == "-h" ]] || [[ "$1" == "--help"  ]]
    exit
 fi
 
+
 echo
+
 if [ "$1" != "" ] && [ -d $1 ]  #if parameter exists, use as base folder
    then cd "$1"
 elif [ "$1" != "" ] && [ -f $1 ]
    then echo "   -> $1 is a file";echo;exit
+   
 elif [ "$1" != "" ]
    then echo "   -> $1:No such file or directory";echo;exit
+   
 fi
+
 pwd
+
 for i in `ls -R`; do if [ `echo $i| grep ":$" -c` == 1 ]; then path=`echo $i | sed -e 's/\/*:$//'`;echo $path;else file="$path/$i";echo $file ;fi ;done | sort | uniq  | sed -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'
 # 1st sed: remove colons: -e 's/\/*:$//'
 # 2nd sed: replace higher level folder names with dashes: -e 's/[^-][^\/]*\//--/g'
@@ -160,7 +166,9 @@ for i in `ls -R`; do if [ `echo $i| grep ":$" -c` == 1 ]; then path=`echo $i | s
 if [ `ls | wc -l` == 0 ]   # check if no files or folders
    then echo "   -> no files or sub-directories"
 fi
+
 echo
+
 exit
 #finsihed
 ```
