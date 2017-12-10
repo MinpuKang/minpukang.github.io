@@ -3,7 +3,7 @@ layout: post
 title: 台场之高达show
 date: 2017-12-10
 categories: blog
-tags: [Japan]
+tags: [日本]
 description: 高达show
 ---
 
@@ -23,10 +23,12 @@ img{
 
 台场或称御台场，位于东京东南部，填海而成，是东京一个娱乐产所集中营，尤其收到年轻人的青睐。台场的名字据说因为美国当年率船队来到日本的时候，日本匆忙在此感知器海上炮台御敌，从此便成为台场。
 
-到达台场可以乘坐海鸥线到台场站，然后按照如下路线可以到达：
+到达台场可以乘坐海鸥线到台场站，然后按照如下路线可以到达高达博物馆所在的DiverCity Tokyo Plaza：
+
 ![高达地图][1]
 
 这次幸运的赶上了等比例高达独角兽大模型，真的是蛮巨大的，然后到达的时候正好赶上变身，很兴奋有木有，超级期待有木有，马上就要挥舞着巨大的身躯来藐视众生有木有，然而期望越大失望来的越快，在不到两分钟的时间内伴随着机甲战士的北京夜月但是简单的展开独角、动了动大脸之后，变身宣告完毕，OMG，so crazy╮(￣▽￣"")╭：
+
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRons87rX1xBQNAdNxia7eHkWcoEQoRe1Wic0tMfrl7kXUnDOBQaJNHEfaKA/0?wx_fmt=jpeg" width="60%" />
 
 看完了变身，就去到了七楼的高达博物馆开始在各种类型的高达中穿梭，这里应该会成为高达爱好者的天堂，模型齐全而且便宜，而于我就做个mark做一些记录吧：
