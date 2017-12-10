@@ -119,7 +119,7 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
 - Fragment 1：IHL=5; Total Length=508; Flag=001; Fragment Offset=0;
 - Fragment 2：IHL=5; Total Length=312; Flag=000; Fragment Offset=61;
 
-1、Fragment 2的Offset为61，61\*8=488，所以第一个Fragment的数据包净长度为488，通过第一个Fragment可以得到Total Length-IHL\*4=508-5\*4=488，所以这两个分片包为相连数据包，且由于Fragment 2的Flag为为000，有Section 3.2可以知道Fragment 2为最后一个分片；
+1、Fragment 2的Offset为61，61\*8=488，所以第一个Fragment的数据包净长度为488，直接通过第一个Fragment可以得到数据包净长度为Total Length-IHL\*4=508-5\*4=488，所以这两个分片包为相连数据包，且由于Fragment 2的Flag为为000，由Section 3.2可以知道Fragment 2为最后一个分片；
 
 2、那么原始数据包的总长度是多少呢？Fragment 2的净长度为Total Length-IHL\*4=312-5\*4=292，所以数据包的净长度为292+488=780，因此原始数据包总长度为780+IHL(5)*4=800。
 
