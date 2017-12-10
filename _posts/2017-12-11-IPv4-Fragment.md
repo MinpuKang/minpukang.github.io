@@ -17,36 +17,34 @@ img{
 
 <meta name="referrer" content="never">
 
-最近这两天在解决一个问题的时候遇到了IP分片的问题，之前总是关注信令的东西，数据业务很少研究，所以也就保持在知道个大概的阶段，但是涉及到VoLTE和VoWiFi的SIP消息时，就可能碰到IP分片和重组等相关内容。
+最近这两天在解决一个问题的时候遇到了IP分片的问题，之前总是关注信令的东西，数据面很少研究，也就保持在知道个大概的阶段，但是涉及到VoLTE和VoWiFi的SIP消息时，可以看作为特殊的数据面消息，大小不定，所以就可能碰到IP分片和重组等问题。
 
 #### 1、为什么要分片？
 虽然伴随着产业的发展，目前网络传输的带宽已经越来越大、越来越不是瓶颈，但是在最开始的设计中因为带宽限制等，就有了太大的数据包如何传输的问题？
 
 比如，运输一个大衣柜（大的数据包），因为城市道路等限高等等以及最终入户时候的电梯和单元门屋门大小的限制等等，从出场到入户必然是一个大问题，那么怎么办呢？
 
-这个时候厂家就想到了何必直接打成一个整体衣柜呢？按照衣柜的上下左右前后等等部位独立制作（分片）。
+这个时候厂家就想到了何必直接打成一个整体衣柜呢？可以按照衣柜的上下左右前后等等部位独立制作（分片）就可以了。
 
-这样将分片后的衣柜各个部位可以独力运输，不再受限。
+这样再将分片后的衣柜各个部位独力运输，就不再受限。
 
 #### 2、分片大小有什么规定？——MTU
 大衣柜是有自己的标准的，那么对于IP数据包这样的数据流分片要参照什么标准呢？
 
-首先大衣柜的分片因为运输受限，所以在IP中也是因为运输限制导致了分片，那么这个限制一个是固定的带宽（比如马路宽都是标准的），另外就是IP中存在的一个MTU（maximum transmission unit，比如马路上的限高），当数据包超过MTU的时候就需要分片。
+首先大衣柜的分片因为运输受限，所以在IP中也是因为运输限制导致了分片，那么这个限制一个是固定的带宽（比如马路宽都是标准的），另外就是IP中存在的一个MTU（maximum transmission unit，比如马路上的限高），当数据包长超过MTU的时候就需要分片。
 
 在以太网网络中，默认的MTU是1500。
 
-#### 3、分片有什么标准？
-大衣柜的各个部分都是有对应标准，或者认为标号来规定各个分片的连接方式以方便再次重组。
+#### 3、分片和重组的相关定义
+大衣柜的各个部分都是有对应标准，或者人为标号来规定各个分片的连接方式以方便再次重组。
 
 那么IP网络中是如何定义这种连接的呢？
 
-来看一下在RFC791中的IPv4的Internet Header Format：
+首先来看一下在RFC791中定义的IPv4的Internet Header Format：
 
 ![IPv4_Header_Format][1]
 
 其中分片相关的有16bits的Identification、3bits的Flags和13bits的Fragment Offset。
-
-Identification：发送端发送的IP数据包标识字段都是一个唯一值，该值在分片时被复制到每个片中。
 
 #### 3.1、16bits的Identification
 Identification共16bits，是发送端发送IP数据包的时候唯一值，并且如何数据包被分片后，此字段复制到各个分片中：
@@ -97,30 +95,29 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
 
 #### 4、万变不如一例
 #### 4.1、IPv4分片实例
-例如一个定义了MTU为1280的设备要转发一个数据包长度(Total Length)为3000且IHL为5的IPv4数据包，由于包长受到了MTU的限制，必然要采取分片的流程。
+例如一个定义了MTU为1280的设备要转发一个数据包长度(Total Length)为3000且包头长IHL（Internet Header Length）为5的IPv4数据包，由于包长受到了MTU的限制，必然要采取分片的流程。
 
-那么分片结果是怎样的呢？首先净数据包长是多少呢？
+那么分片结果是怎样的呢？首先数据包净长是多少呢？
 
-首先IP包里的Total Length中包括了数据包头长（IHL=Internet Header Length）和数据包的净长度，因此数据包净长度为Total Length-IHL\*4，因此此数据包的净长度为3000-5\*4=2980.
+首先IP包里的Total Length中包括了数据包头长和数据包的净长度，数据包净长度为Total Length-IHL\*4，因此此数据包的净长度为3000-5\*4=2980。
 
-1、由于Fragment Offset的单位8 octets，所以不是最后一个分片的其他数据包长度必然为8的整数倍，由于MTU为1280，除去IP头的IHL5\*4(字节)=20之后得到1280-20=1260，由于1260/8=157.5不是8的整数倍，所以取1260-4=1256，1256/8=157为8的整数倍，所以第一个Fragment的数据净长度为1256，数据包总长度为1256+20=1276，剩余的数据净长度长2880-1256=1724；
+1、由于Fragment Offset的单位8 octets，所以不是最后一个分片的其他数据包净长度必然为8的整数倍，由于MTU为1280，除去IP头的IHL5\*4(字节)=20之后得到1280-20=1260，由于1260/8=157.5不是8的整数倍，所以取1260-4=1256，1256/8=157为8的整数倍，所以第一个Fragment的数据净长度为1256，数据包总长度为1256+20=1276，剩余的数据净长度长2880-1256=1724；
 
-2、由于分片1之后净长度依然大于MTU 1280，所以继续分片，依然可以发送净长度为1256的数据，数据包总长度为1256+20=1276；此时由于已经是第二个分片，那么其Fragment Offset为1256/8=157，剩余的数据净长度为1624-1256=468；
+2、由于分片1之后净长度依然大于1256（MTU-IHL\*4），所以继续分片，依然可以发送净长度为1256的数据，数据包总长度为1256+20=1276；此时由于已经是第二个分片，那么其Fragment Offset为1256/8=157，剩余的数据净长度为1624-1256=468；
 
-3、经过第二次分片子后，剩余的净长度为468，小于MTU，因此此分片为最后分片，其中总长度为468+20=488，Fragment Offset=1256*2/8。
+3、经过第二次分片后，剩余的净长度为468，小于1256，因此此分片为最后分片，其中总长度为468+20=488，Fragment Offset=1256*2/8。
 
 因此分片数据包如下：
 
 - Fragment 1：IHL=5; Total Length=1276; Flag=001; Fragment Offset=0;
 - Fragment 2：IHL=5; Total Length=1276; Flag=001; Fragment Offset=157;
-- Fragment 3：IHL=5; Total Length=488; Flag=000; Fragment Offset=314;
+- Fragment 3：IHL=5; Total Length=488; Flag=000; Fragment Offset=314。
 
 #### 4.2、IPv4数据包重组实例
 现在收到一个如下的分片数据包：
 
 - Fragment 1：IHL=5; Total Length=508; Flag=001; Fragment Offset=0;
 - Fragment 2：IHL=5; Total Length=312; Flag=000; Fragment Offset=61;
-
 
 1、Fragment 2的Offset为61，61\*8=488，所以第一个Fragment的数据包净长度为488，通过第一个Fragment可以得到Total Length-IHL\*4=508-5\*4=488，所以这两个分片包为相连数据包，且由于Fragment 2的Flag为为000，有Section 3.2可以知道Fragment 2为最后一个分片；
 
@@ -138,7 +135,4 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRonsIGNicMLIlc9GsrMCPxuSjyjd2fFticMDIKRNss2nbEe4WWPF7DDDOIA/0?wx_fmt=png
-  [2]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRontyDibvmebPia1u5CHq5ZlPdOXWGib3tu6cEaJoAAu64KLTpMTXuicetAibg/0?wx_fmt=png
-  [3]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRonzjzdNvGsdQx7z7ic04LCvOw76rvQmEEtBuwpNY5UiaeT7lufQ6GXQcHA/0?wx_fmt=png
-
 
