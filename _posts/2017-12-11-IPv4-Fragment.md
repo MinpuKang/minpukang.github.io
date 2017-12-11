@@ -127,6 +127,10 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
 
 以上就是IPv4数据包的分片和重组内容，欢迎关注公号留言讨论。
 
+参考文档：
+
+- [RFC 791: INTERNET PROTOCOL](https://tools.ietf.org/html/rfc791)
+
 ------------
 <p align="center">欢迎关注公众号：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAoGfjsaJt2NQ0a9AKmrIRoR9gKlX1I78Z4AoPtjyEPM56slw9gAQBdAHjHckbw4h93FvVVATBuLQ/0?wx_fmt=jpeg" width="40%" />
