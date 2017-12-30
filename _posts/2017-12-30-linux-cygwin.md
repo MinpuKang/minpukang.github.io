@@ -85,13 +85,13 @@ cygwin开启sshd服务之后，其ip为127.0.0.1也就是localhost，默认的po
 
 ![后记1][14]
 
-更新配置需要使用如下命令stop/start sshd服务使其生效：
+更新配置后需要使用如下命令重启sshd服务使其生效：
 ```
 net stop sshd
 net start sshd
 ```
 
-2、这样之后就可以使用任何的登录软件来使用Cygwin了，并且重启电脑后必须打开Cygwin Terminal，也就是其他的软件代替了Terminal，让操作更方便快捷。
+2、这样之后就可以使用任何的登录软件来使用Cygwin了，并且重启电脑后不必再打开Cygwin Terminal，也就是其他的软件代替了Terminal，让操作更方便快捷。
 
 以上。
 
