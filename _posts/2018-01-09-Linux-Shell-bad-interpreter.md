@@ -17,7 +17,7 @@ img{
 
 <meta name="referrer" content="never">
 
-在从Windows下移植某些文件尤其是脚本文件到Linux环境之后会出现无法编译的情况，遇到如下的错误提示：
+在从Windows下移植某些文件尤其是脚本文件到Linux环境之后会出现无法编译的情况，遇到类似如下的错误提示：
 
 **/bin/sh^M: 坏的解释器: 没有那个文件或目录(bad interpreter: No such file or directory)**
 
@@ -27,12 +27,14 @@ img{
 -bash: ./shell.txt: /bin/sh^M: 坏的解释器: 没有那个文件或目录
 [coreuser@HK-CentOS ~]$
 ```
+
+那么这是因为什么导致，又如何解决呢？
+
 #### 1、原因
 这个是因为Windows下和Linux的换行符不同导致：
 
 1. Windows中默认的换行符是\r\n；
 2. Linux下的换行符是\n。
-
 
 因此当文件在Windows下编辑之后就会携带\r\n的换行符导致在Linux环境下无法编译，那么如何查看和解决呢？
 
