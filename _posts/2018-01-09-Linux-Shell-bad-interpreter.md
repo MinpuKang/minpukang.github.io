@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux关于xxx^M: 坏的解释器: 没有那个文件或目录
+title: Linux关于xxx^M导致Shell程序编译错误
 date: 2018-01-09
 categories: blog
 tags: [Linux, Shell]
