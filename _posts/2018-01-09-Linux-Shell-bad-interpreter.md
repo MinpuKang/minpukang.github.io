@@ -17,7 +17,7 @@ img{
 
 <meta name="referrer" content="never">
 
-在从Windows下移植某些文件尤其是脚本文件到Linux环境之后会出现无法编译的情况，遇到类似如下的错误提示：
+在从Windows下移植某脚本文件到Linux环境之后会出现无法编译的情况，遇到类似如下的错误提示：
 
 **/bin/sh^M: 坏的解释器: 没有那个文件或目录(bad interpreter: No such file or directory)**
 
