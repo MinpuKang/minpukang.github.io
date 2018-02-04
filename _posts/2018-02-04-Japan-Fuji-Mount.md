@@ -39,11 +39,11 @@ img{
 
 以富士山为背景的景观从白天到黑夜依次有日出之时的红富士和赤富士，白天的逆富士，斗笠富士，日出日落前后的钻石富士，夜空下的星空富士，还有其他的前景依托下的富士美景。
 
-#### 1.1 日出时分的红富士
+#### 1.1 日出时分的富士山
 日出前后是摄影的一个黄金时间，所以日出的霞光洒满富士山顶就被称为红富士和赤富士，而红富士则是冬季霞光覆雪；赤富士则是夏秋白雪融化后裸露出黑色火山石沐浴霞光而得名。
 ![红富士][4]
 
-#### 1.2 日上三杆的逆富士
+#### 1.2 日上三杆的富士山
 日山三杆之后强烈光照下的富士山色彩明亮，这个时候可以轻而易举的看到逆富士之景，所谓逆富士就是围绕富士山的湖水中倒影富士山和本尊交相呼应，如美人照镜窥探自己的美貌一般：
 ![逆富士][5]
 
@@ -59,7 +59,7 @@ img{
 #### 1.3 日出日落前后的钻石富士
 “钻石富士”是指太阳在富士山顶部附近形成星芒如钻石镶嵌山顶一般。钻石富士景象仅限于12月至4月之间，从富士山的东侧（日落之前）或西侧（观测日出之后）都可以观赏到。具体的观测地点和时间可以参考[富士山官网](http://www.yamanashi-kankou.jp/nature/winter.html)
 
-为了兼顾观看日出的红富士，所以我选择在观看日落之前的钻石富士，这样围绕着山中湖的出行计划也成为了第二次去的主旋律，但是因为错信官网推荐的观测位置，没能得到最终太阳镶嵌山顶的那一刻，实乃一大憾事：
+为了兼顾观看日出的红富士，所以我选择观看日落之前的钻石富士，这样围绕着山中湖的出行计划也成为了第二次去的主旋律，但是因为错信官网推荐的观测位置，没能得到最终太阳镶嵌山顶的那一刻，实乃一大憾事：
 来自官网的钻石富士：
 ![钻石富士1][9]
 
@@ -96,7 +96,7 @@ img{
 
 为什么会如此神奇呢？
 
-因为富士山作为休眠活火山，不知道什么时候就会喷发了，所以修建富士山的道路也跟其他的地方不一样，此地要耐高温高压，从而能保证山上的人的撤离；在修建道路的过程中一位音乐爱好者条田志津夫一次无意间用推土机将一些工程碎物碾入了路面中，当他再开车经过这里的时候却意外的听到车底下传来了各种声音，从而花费了1年多的时间研究铺设了这样一段吟唱日本传统民谣《富士の山》的Melody Road（旋律公路）。其原理非常简单，就是利用音差原理，当汽车以一定的速度（大约40-50km/h）通过公路上的凹槽时(就是俗称的搓板路)，轮胎与地面的摩擦会发出特定的声音，这种声音的高低与凹槽之间的间距有关，间距越小音调越高。
+因为富士山作为休眠活火山，不知道什么时候就会喷发了，所以修建富士山的道路也跟其他的地方不一样，此地要耐高温高压，从而能保证山上的人的撤离；在修建道路的过程中一位音乐爱好者条田志津夫一次无意间用推土机将一些工程碎物碾入了路面中，当他再开车经过这里的时候却意外的听到车底下传来了各种声音，从而花费了1年多的时间研究铺设了这样一段吟唱日本传统民谣《富士の山》的Melody Road（旋律公路）。其原理就是利用音差原理，当汽车以一定的速度（大约40-50km/h）通过公路上的凹槽时(就是俗称的搓板路)，轮胎与地面的摩擦会发出特定的声音，这种声音的高低与凹槽之间的间距有关，间距越小音调越高。
 
 现在美国，韩国，中国等等都铺设了类似的音乐道路。
 
@@ -137,7 +137,6 @@ Excuse Me？我怎么去看新仓山？我怎么回东京？OMG，当时心里�
 继续等待吧，一定会有的，结果上天感知我拍摄富士山之辛苦，大概9：03左右，入库车司机叽里哇啦的一句日语让我看到了希望，迅速边跑边喊：Fujisan Station；司机大叔笑眯眯的招手上车，我也彻底从焦虑中解脱了出来。
 
 之后也幸运的达到了新仓山拍摄了五重塔和富士山。
-![下吉田到新仓山][20]
 
 所以从山中湖回程就变成了：本地公交到富士山站，然后做到大月电车在下吉田下车，新仓山之后继续坐车到大月，到大月如果不赶时间的话可以继续倒电车到高尾然后电车大新宿，而我从大月直接搭乘了加急指定席直达新宿的电车（主要是到大月没再查线路，结果多话了930日元的席位，心疼）。
 
@@ -197,6 +196,9 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
 #### 5.2 山中湖和平野
 山中湖是富士五湖中最大的湖泊，也是富士五湖中最高的一湖，在全日本则是第三。不过也是富士五湖中最浅的一湖。为富士箱根伊豆国立公园的一部分，在富士山山梨县一侧。
 
+平静的山中湖和平野村：
+![山中湖][44]
+
 山中湖的东西部明显的冰河分界：
 ![山中湖][32]
 
@@ -217,6 +219,9 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
 ![山中湖][37]
 
 #### 5.3 新仓山浅间神社
+做电车到下吉田站之后一路都有指示直达新仓山浅间神社：
+![新仓山][43]
+
 到达新仓山，会看到一个大石碑写着三国第一高山：
 ![新仓山][38]
 
@@ -225,10 +230,16 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
 
 此三国应该指的是日本战国时代围绕富士山的甲斐、相模和骏河三国吧，此三国都是围绕富士山，不知为何定新仓山位第一山，难道富士山作为神山不参与排名的么？
 
-而新仓山的浅间神社作为富士山的绝佳观赏点，在富士吉田市内也屈指可数。登上本殿附近的397级台阶，五重塔身的“忠勇塔”就会映入眼帘。
+涉阶而上到达浅间神社，神社前有一个子育神木亭亭而立：
+
+![子育神木][20]
+
+然后继续登上本殿附近的397级台阶，五重塔身的“忠勇塔”就会映入眼帘：
+
 ![新仓山浅间神社五重塔][14]
 
 而忠勇塔观景台再往上有一尊铜像，是发起日本明治维新的明治身穿陆军军服铸造的铜像，因为种种原因木有拍的照片删掉了。
+
 
 #### 5.4 忍野八海
 忍野八海是日本山梨县山中湖和河口湖之间忍野村的涌泉群。因为错落有致地散布着八个清泉，“忍野八海”故而得名且名扬四方。据说忍野八海在1200年前就有了，是富士山融化的雪水经流经地层过滤而成的八个清澈的淡泉水：御釜池、底无池、铫子池、浊池、涌池、镜池、菖蒲池和出口池。
@@ -239,13 +250,16 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
 ### 6 最后的最后
 最后的最后没有什么总结性的旅行意义，只是在那两天在宁静与自然中的真的很放松，尤其是在日本工作的高压下难的的闲适，以至于回到东京的时候感觉恍惚。
 
-最后就是女主和男主的旅行mark了，第一次的时候到到了五合目女主留念，第二次只有男主自拍背影啦！
+最后就是女主和男主的旅行mark了，第一次的时候到到了五合目女主留念，第二次只有男主自拍背影喽！
 
 ![女主][41]
 
 ![男主][42]
 
 愿一切随自然，宁静而致远！
+
+![富士山][45]
+
 
 ------------
 <p align="center">欢迎关注公众号：</p>
@@ -273,7 +287,7 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
   [17]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PWuNflOdlEYVoCC8HFtTOG6eG0FxnbvY71N1ibPH1L0vQMyMuDL8x57A/0?wx_fmt=jpeg
   [18]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PstrYIOhw8qJZvOqeu9wTQXImLHoTkq5Wdsha2VWDJqjBprb51YWysg/0?wx_fmt=jpeg
   [19]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PjUpJzZrrOiaUicdw2jkiakuJ1NyVBSQj0Qbq7huPmKDoiajeVV004nib1qQ/0?wx_fmt=jpeg
-  [20]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PPPfKKKP9qwpc2ARtiaMrTwiciaefKEwMKLRZql0GPm3ACRZusOkO3Ho2A/0?wx_fmt=jpeg
+  [20]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PTev2Y8A4vnyGtbib05S7kKerj6FruictaGTU6ahaVMw5icKsdELvUAE2g/0?wx_fmt=jpeg
   [21]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PytNQMwib9w5jef1geZYDDL4m3WGfohBN17CmficpwKJDjrenhOtoiachg/0?wx_fmt=jpeg
   [22]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PFMwgBIP1S5UPtqLEMwdUHYD0cdqicDZlcohLeZMZINwgnFkqPfurMQw/0?wx_fmt=jpeg
   [23]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6P9IyQJiczHcm2AB2ic8SxWgZ8sksj4dXl5REKSmTPrFMebOnqneFia9y2w/0?wx_fmt=jpeg
@@ -296,5 +310,7 @@ tenki: [https://tenki.jp/lite/indexes/starry_sky/3/22/4920/](https://tenki.jp/li
   [40]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDBCElHL5yc9gj4tpyMJA2iblbee7wrHiam52jSUdOuU8hEGk4xPbBID9AxVnZcOXLqUsUBIkTABhCQ/0?wx_fmt=jpeg
   [41]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDBCElHL5yc9gj4tpyMJA2ibhZicF8ficPxxQ7fvn7c6ByqAFCrribQbUrFhrWrmf94v66DSndBACicmHw/0?wx_fmt=jpeg
   [42]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDBCElHL5yc9gj4tpyMJA2ib7axe2SRsiaiauiaFtlOyXUTTiaibAk3Rr16zYbU3roVNOcUBfNicBbmtLiaFQ/0?wx_fmt=jpeg
-
+  [43]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADrjHXYKSUlr28jAQ1BO6PPPfKKKP9qwpc2ARtiaMrTwiciaefKEwMKLRZql0GPm3ACRZusOkO3Ho2A/0?wx_fmt=jpeg
+  [44]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAibnv29kuL1mLUmR5PJY0epGwfRoljoofDB4AicOLJqN3eiaQuyoicbFIhFG1bEprjQ6eibfKjwAIV7KA/0?wx_fmt=jpeg
+  [45]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDBCElHL5yc9gj4tpyMJA2ib1R1lUYkMtjXe9IVawsgPAqrHhLhrlGy0MW5ckFBqick0Z3HnhXwPTiag/0?wx_fmt=jpeg
 
