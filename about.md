@@ -23,6 +23,8 @@ Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
 个人公众号：七禾页话（qiheyehk）
 
+图虫：[琉璃康康](https://liulikangkang.tuchong.com/)
+
 LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 
 ### 从事行业：
