@@ -179,6 +179,4 @@ openssl x509 -in $sub_ca_file -text -noout
 <p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
-  [1]:
-
 
