@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 遇见那片花海
+title: 遇见那片樱花海
 date: 2018-04-21
 categories: blog
 tags: [日本, 樱花季]
