@@ -24,14 +24,14 @@ header-img: "img/tool.jpg"
 
 [国家地理中文网](http://www.nationalgeographic.com.cn/)
 
-[LOFTEE](http://www.lofter.com/)
+[图虫](https://liulikangkang.tuchong.com/)
 
-[图虫](https://tuchong.com/)
+[LOFTEE](http://www.lofter.com/)
 
 
 ### Service
 
-[GitHub](https://github.com/)
+[GitHub](https://github.com/MinpuKang)
 
 [Evernote](https://www.evernote.com/)
 
