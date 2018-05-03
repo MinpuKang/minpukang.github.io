@@ -14,7 +14,7 @@ header-img: "img/archive.jpg"
 
 <div id='tag_cloud' class="listing-seperator{">
 {% for post in site.posts %}
-<a href="#{{ post[0] }}" title="{{ post[0] }}" rel="{{ post[1].size }}">{{ post[0] }}</a>
+  <a href="#{{ post[0].date | date:"%Y" }}" title="{{ post[0].date | date:"%Y" }}" rel="{{ post[1].size }}">{{ post[0].date | date:"%Y" }}</a>
 {% endfor %}
 </div>
 
@@ -31,3 +31,16 @@ header-img: "img/archive.jpg"
   </li>
 {% endfor %}
 </ul>
+
+
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
