@@ -12,7 +12,7 @@ header-img: "img/archive.jpg"
     }
 </style>
 
-<div id='tag_cloud' class="listing-seperator{">
+<div id='tag_cloud' class="listing-seperator">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   <a href="#{{ y }}" title="{{ y }}" rel="{{ post[1].size }}">{{ y }}</a>

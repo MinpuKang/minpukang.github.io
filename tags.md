@@ -8,13 +8,13 @@ header-img: "img/tags.jpg"
 #### 因子列表
 
 <style>
-    .listing-seperator{{
+    .listing-seperator{
         list-style:none;
         font-weight:bold;
     }
 </style>
 
-<div id='tag_cloud' class="listing-seperator{">
+<div id='tag_cloud' class="listing-seperator">
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
