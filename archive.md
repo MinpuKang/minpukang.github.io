@@ -5,14 +5,20 @@ description: "这里，从无到有"
 header-img: "img/archive.jpg"
 ---
 
-<style>
+<style type="text/css">
+    .archive-top{
+        list-style:none;
+        font-weight:bold;
+    }；
+</style>
+<style type="text/css">
     .listing-seperator{
         list-style:none;
         font-weight:bold;
-    }
+    }；
 </style>
 
-<div id='tag_cloud' class="listing-seperator">
+<div id='tag_cloud' class="archive-top">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   <a href="#{{ y }}" title="{{ y }}" rel="{{ post[1].size }}">{{ y }}</a>

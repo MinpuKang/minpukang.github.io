@@ -10,6 +10,8 @@ header-img: "img/tags.jpg"
         list-style:none;
         font-weight:bold;
     }；
+</style>
+<style type="text/css">
     .listing-seperator{
         list-style:none;
         font-weight:bold;
