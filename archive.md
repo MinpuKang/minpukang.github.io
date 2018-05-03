@@ -15,7 +15,7 @@ header-img: "img/archive.jpg"
 <div id='tag_cloud' class="listing-seperator{">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  <a href="#{{ y }}" title="{{ y }}" rel="{{ post[1].size }}">{{ y }}</a>
+  <a href="#{{ y }}" title="{{ y }}">{{ y }}</a>
 {% endfor %}
 </div>
 
@@ -24,7 +24,9 @@ header-img: "img/archive.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
+    <li class="listing-seperator">
+    <a href="#top" title="{{ y }}">{{ y }}</a>
+    </li>
   {% endif %}
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
