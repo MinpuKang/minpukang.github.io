@@ -5,16 +5,20 @@ description: "分解的因子，异类一类！"
 header-img: "img/tags.jpg"
 ---
 
-<style>
+<style type="text/css">
+    .tag-top{
+        list-style:none;
+        font-weight:bold;
+    }；
     .listing-seperator{
         list-style:none;
         font-weight:bold;
-    }
+    }；
 </style>
 
 #### 因子列表
 
-<div id='tag_cloud' class="listing-seperator">
+<div id='tag_cloud' class="tag-top">
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
