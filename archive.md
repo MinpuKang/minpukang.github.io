@@ -9,7 +9,6 @@ header-img: "img/archive.jpg"
     .listing-seperator{
         list-style:none;
         font-weight:bold;
-        font-size:200%;
     }
 </style>
 

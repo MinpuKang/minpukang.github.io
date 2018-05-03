@@ -5,14 +5,13 @@ description: "分解的因子，异类一类！"
 header-img: "img/tags.jpg"
 ---
 
-## 因子列表
+#### 因子列表
 
 <style>
     .tag-header{
         list-style:none;
         font-weight:bold;
-        font-size:200%;
-    }
+    };
     .listing-seperator{
         list-style:none;
         font-weight:bold;
