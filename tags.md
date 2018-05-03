@@ -5,14 +5,14 @@ description: "分解的因子，异类一类！"
 header-img: "img/tags.jpg"
 ---
 
-#### 因子列表
-
 <style>
     .listing-seperator{
         list-style:none;
         font-weight:bold;
     }
 </style>
+
+#### 因子列表
 
 <div id='tag_cloud' class="listing-seperator">
 {% for tag in site.tags %}
