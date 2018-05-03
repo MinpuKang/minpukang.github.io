@@ -5,6 +5,13 @@ description: "这里，从无到有"
 header-img: "img/archive.jpg"
 ---
 
+<style>
+    .listing-seperator{
+        list-style:none;
+        font-weight:bold;
+        font-size:200%;
+    }
+</style>
 
 <ul class="listing">
 {% for post in site.posts %}
@@ -19,10 +26,3 @@ header-img: "img/archive.jpg"
   </li>
 {% endfor %}
 </ul>
-
-<style>
-    .listing-seperator{
-        list-style:none;
-        font-weight: bold;
-    }
-</style>
