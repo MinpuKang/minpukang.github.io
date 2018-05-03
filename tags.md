@@ -22,9 +22,9 @@ header-img: "img/tags.jpg"
 
 <ul class="listing">
 {% for tag in site.tags %}
-  <div class="listing-seperator" id="{{ tag[0] }}">
-  <a href="#">{{ tag[0] }}</a>
-  </div>
+  <li class="listing-seperator" id="{{ tag[0] }}">
+  <a href="#top" title="{{ tag[0] }}">{{ tag[0] }}</a>
+  </li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
