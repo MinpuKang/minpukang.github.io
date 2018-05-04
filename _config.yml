@@ -1,8 +1,10 @@
 # Site settings
 title: 琉璃康康
+SEOTitle: 琉璃康康 | HK Blog
 header-img: "img/home.jpg"
 tagline: "cn"  
-#description: "琉璃苣的花语是勇气|琉璃康康"  
+description: "琉璃苣的花语是勇气 | 琉璃康康"  
+keyword: "琉璃康康, 康民仆, HK, HK Blog, 博客, 个人网站, 通信, Linux, 摄影"
 baseurl: ""
 url: "http://www.hk314.me"
 
@@ -16,10 +18,9 @@ owner:
 #gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon_new.png
 
-douban_username:  
-twitter_username: 
+# SNS settings
+RSS: false
 github_username: MinpuKang
-facebook_username: 
 weibo_username: kangminpu
 zhihu_username: liulikangkang
 loft_username: liulikangkang
@@ -59,7 +60,39 @@ comments :
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
 google_verify:
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "如猛虎细嗅蔷薇，<br>做一些自己喜欢的事情！"
+sidebar-avatar: img/avatar-hk.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+# Friends
+friends: [
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "iDom",
+        href: "http://idom.me/"
+    }
+]
 
 # Links to include in footer navigation
