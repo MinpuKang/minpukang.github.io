@@ -9,11 +9,11 @@ header-img: "img/tags.jpg"
     .tag-top{
         list-style:none;
         font-weight:bold;
-    };
+    }
     .listing-seperator{
         list-style:none;
         font-weight:bold;
-    };
+    }
 </style>
 
 #### 因子列表
