@@ -9,13 +9,11 @@ header-img: "img/archive.jpg"
     .archive-top{
         list-style:none;
         font-weight:bold;
-    }；
-</style>
-<style type="text/css">
+    };
     .listing-seperator{
         list-style:none;
         font-weight:bold;
-    }；
+    };
 </style>
 
 <div id='tag_cloud' class="archive-top">
