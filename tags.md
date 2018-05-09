@@ -5,20 +5,34 @@ description: "分解的因子，异类一类！"
 header-img: "img/tags.jpg"
 ---
 
+<<<<<<< HEAD
 <style type="text/css">
     .tag-top{
         list-style:none;
         font-weight:bold;
     }
+=======
+#### 因子列表
+
+<style>
+    .tag-header{
+        list-style:none;
+        font-weight:bold;
+    };
+>>>>>>> parent of 07cc61e... Update the archive and tags CSS
     .listing-seperator{
         list-style:none;
         font-weight:bold;
     }
 </style>
 
+<<<<<<< HEAD
 #### 因子列表
 
 <div id='tag_cloud' class="tag-top">
+=======
+<div id='tag_cloud' class="tag-header">
+>>>>>>> parent of 07cc61e... Update the archive and tags CSS
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
@@ -26,9 +40,13 @@ header-img: "img/tags.jpg"
 
 <ul class="listing">
 {% for tag in site.tags %}
+<<<<<<< HEAD
   <li class="listing-seperator" id="{{ tag[0] }}">
   <a href="#top" title="{{ tag[0] }}" rel="{{ tag[1].site}}">{{ tag[0] }}</a>
   </li>
+=======
+  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+>>>>>>> parent of 07cc61e... Update the archive and tags CSS
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>

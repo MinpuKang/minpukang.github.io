@@ -16,6 +16,7 @@ header-img: "img/archive.jpg"
     }
 </style>
 
+<<<<<<< HEAD
 <div id='tag_cloud' class="archive-top">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -23,6 +24,8 @@ header-img: "img/archive.jpg"
 {% endfor %}
 </div>
 
+=======
+>>>>>>> parent of 07cc61e... Update the archive and tags CSS
 <ul class="listing">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
