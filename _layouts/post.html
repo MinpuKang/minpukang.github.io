@@ -24,12 +24,10 @@ layout: default
                         <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
-                    <h2>{{ page.title }}</h2>
-                    <div><br></div>
+                    <h1>{{ page.title }}</h1>
                     {% if page.description %}
-                    <h5>{{ page.description }}</h5>
+                    <h3 class="subheading">{{ page.description }}</h3>
                     {% endif %}
-                    <div><br><br><br></div>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
