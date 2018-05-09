@@ -2,17 +2,6 @@
 layout: default
 ---
 
-<style>
-img{
-  display:block;
-  margin:0
-  auto;
-}
-</style>
-
-<meta name="referrer" content="never">
-
-
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
@@ -71,18 +60,8 @@ img{
                     </li>
                     {% endif %}
                 </ul>
-                
-                <!-- share 
 
-                <style>
-                    .bdsharebuttonbox{
-                        ax-width: 700px;
-                    }
-                </style>
-                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a></div>
-                <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16},"image":{"viewList":["tsina","weixin","qzone"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","weixin","qzone"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-                
-                <!-- Duoshuo Share start
+                <!-- Duoshuo Share start -->
                 <style>
                     .ds-share{
                         text-align: right;
@@ -95,12 +74,19 @@ img{
                     }
                 </style>
 
+                
                 <div class="ds-share"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | 琉璃康康:HK's blog"
+                    data-content="{{ content | strip_html | truncate:80 }} | Microdust:Azeril's blog"
                     data-url="{{site.url}}{{page.url}}">
                     <div class="ds-share-inline">
+                      <ul  class="ds-share-icons-16">
+
+                        <li data-toggle="ds-share-icons-more"><a class="ds-more">分享到：</a></li>
+                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                      </ul>
                       <div class="ds-share-icons-more">
                       </div>
                     </div>
@@ -108,6 +94,7 @@ img{
                 </div>
                 
                 <!-- Duoshuo Share end-->
+
 
                 <!-- 多说评论框 start -->
                 <div class="comment">
