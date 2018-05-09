@@ -11,7 +11,7 @@ header-img: "img/tags.jpg"
     .tag-header{
         list-style:none;
         font-weight:bold;
-    };
+    }
     .listing-seperator{
         list-style:none;
         font-weight:bold;
