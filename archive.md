@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Archive"
-description: "这里，从无到有"
+description: "这里是从无到有之地"
 header-img: "img/archive.jpg"
 ---
 
@@ -17,7 +17,10 @@ header-img: "img/archive.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
+    <li class="listing-seperator" id="{{ y }}">
+    <a href="#top" title="{{ post.title }}">{{ y }}</a>
+    </li>
+
   {% endif %}
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
