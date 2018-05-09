@@ -1,10 +1,10 @@
 # Site settings
 title: 琉璃康康
-SEOTitle: 琉璃康康 | HK Blog
+#SEOTitle: 琉璃康康 | HK Blog
 header-img: "img/home.jpg"
 tagline: "cn"  
-description: "琉璃苣的花语是勇气 | 琉璃康康"  
-keyword: "琉璃康康, 康民仆, HK, HK Blog, 博客, 个人网站, 通信, Linux, 摄影"
+#description: "琉璃苣的花语是勇气 | 琉璃康康"  
+#keyword: "琉璃康康, 康民仆, HK, HK Blog, 博客, 个人网站, 通信, Linux, 摄影"
 baseurl: ""
 url: "http://www.hk314.me"
 
