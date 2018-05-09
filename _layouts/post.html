@@ -7,6 +7,12 @@ layout: default
     header.intro-header{
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
+    .heading{
+        font-size:24px;
+    }
+    .subheading{
+        font-size:16px;
+    }
 </style>
 <header class="intro-header" >
     <div class="container">
@@ -18,7 +24,7 @@ layout: default
                         <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
-                    <h1>{{ page.title }}</h1>
+                    <h1 class="heading">{{ page.title }}</h1>
                     {% if page.description %}
                     <h2 class="subheading">{{ page.description }}</h2>
                     {% endif %}
