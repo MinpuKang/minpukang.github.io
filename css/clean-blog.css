@@ -524,3 +524,12 @@ body {
   background-color: #ddd;
 }
 
+.qr_code_pc_outer {  
+    color: #717375;  
+    display: block !important;  
+    position: fixed;  
+    right: 100px;  
+    text-align: center;  
+    top: 200px;  
+} 
+
