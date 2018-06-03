@@ -150,10 +150,10 @@ if [ "$1" != "" ] && [ -d $1 ]  #if parameter exists, use as base folder
    then cd "$1"
 elif [ "$1" != "" ] && [ -f $1 ]
    then echo "   -> $1 is a file";echo;exit
-   
+
 elif [ "$1" != "" ]
    then echo "   -> $1:No such file or directory";echo;exit
-   
+
 fi
 
 pwd
@@ -177,7 +177,7 @@ exit
 
 ------------
 <p align="center">欢迎关注公众号：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAoGfjsaJt2NQ0a9AKmrIRoR9gKlX1I78Z4AoPtjyEPM56slw9gAQBdAHjHckbw4h93FvVVATBuLQ/0?wx_fmt=jpeg" width="40%" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
 <p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
