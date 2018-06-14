@@ -12,3 +12,6 @@ Also, this is synced with the WeChat Official Account： qiheyehk。
 
 最开始的出处是 fork 自 [Azeril](http://azeril.github.io)，表示感谢。
 
+
+#### DNS Setting
+[https://help.github.com/articles/setting-up-an-apex-domain/](https://help.github.com/articles/setting-up-an-apex-domain/)
