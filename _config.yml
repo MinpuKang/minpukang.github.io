@@ -1,10 +1,10 @@
 # Site settings
 title: 琉璃康康
 header-img: "img/home.jpg"
-tagline: "cn"  
-#description: "琉璃苣的花语是勇气|琉璃康康"  
+tagline: "HK"  
+description: "琉璃苣的花语是勇气|琉璃康康"  
 baseurl: ""
-url: "http://www.hk314.me"
+url: "http://www.hk314.top"
 
 # About/contact
 owner: 
