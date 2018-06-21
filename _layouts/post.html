@@ -26,6 +26,9 @@ layout: default
                     <h3 class="subheading">{{ page.description }}</h3>
                     {% endif %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span id="busuanzi_container_page_pv">
+                        Total view <span id="busuanzi_value_page_pv"></span> times
+                    </span>
                 </div>
             </div>
         </div>
