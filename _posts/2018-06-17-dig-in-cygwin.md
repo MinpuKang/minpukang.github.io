@@ -170,7 +170,7 @@ hk314.top.              600     IN      A       185.199.109.153
 lrwxrwxrwx 1 User(230687) Group(513) 32 Jun 14 17:44 /usr/bin/dig -> /cygdrive/c/windows/system32/dig
 ```
 
-以上，还是期待更新Windows 10之后能使用自带的Linux子系统吧^_^_
+以上，还是期待更新Windows 10之后能使用自带的Linux子系统吧^_^
 
 ------------
 <p align="center">欢迎关注公众号：</p>
