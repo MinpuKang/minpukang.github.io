@@ -30,7 +30,7 @@ LOFTER：[琉璃康康](http://liulikangkang.lofter.com/)
 ### 从事行业：
 
 - 1.从事通信行业五年，专注通信核心网，熟悉GRPS、EPC和整个Wi-Fi方案的信令流程。
-- 2.熟悉Linux的维护工作，现在坚持使用CentOS。
+- 2.熟悉Linux的维护工作，熟悉常用命令，经常通过shell编程来方便工作。
 - 3.热爱编程，有宽度木有深度，从大学学习的C、C#、Java等到之后学习了Shell、Python、Ruby、Lua、VBA等等，都是只知皮毛，比较熟悉的是C#做工具和网站、shell来简化各种运维工作，不过所有的都在研习的路上。
 
 
