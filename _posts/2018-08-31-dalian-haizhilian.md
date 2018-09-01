@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 游玩大连之海之恋浴场，来一波烧烤趴
+title: 玩转大连海之恋浴场，来一波烧烤趴
 date: 2018-08-31
 categories: blog
 tags: [大连, 旅行, 摄影]
