@@ -35,7 +35,7 @@ img{
 
 之后妞儿在朋友圈发了这个状态后，发现好多朋友都不知道这个功能？虽然会暴露自己的位置，但是Apple的安全还是可以的。
 
-那么我们到底是怎么定位到这个手机的呢？录了一个视频来详细介绍这个过程，第一次做这样的视频：iPhone录屏、之后iMovie剪辑、最后使用Premiere打码并录制配音，有杂音，还望海涵：
+那么我们到底是怎么定位到这个手机的呢？录了一个视频来详细介绍这个过程，第一次做这样的视频：iPhone录屏、之后iMovie剪辑、最后使用Premiere打马赛克并录制配音，有杂音，还望海涵：
 <div align="center">
     <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=l07366rqbtb&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 </div>
