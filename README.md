@@ -6,7 +6,7 @@ Focus on Photographing, Journey, Telcom, Linux and anything else for daily life 
 
 Also, this is synced with the WeChat Official Account： qiheyehk。
 
-My Blog：https://hk314.me
+My Blog：https://hk314.top
 
 #### Fork
 
