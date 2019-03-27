@@ -1,17 +1,13 @@
 #### Introduction
 
-This is the blog of HK.
+This is the blog of KangKang.
 
-Focus on Telcom, Linux, Photographing and anything else for daily working and life.
+Focus on Photographing, Journey, Telcom, Linux and anything else for daily life and work.
 
 Also, this is synced with the WeChat Official Account： qiheyehk。
 
+My Blog：https://hk314.me
+
 #### Fork
 
-此博客 fork 自 [cnfeed](https://github.com/cnfeat/blog.io)，多谢！
-
-最开始的出处是 fork 自 [Azeril](http://azeril.github.io)，表示感谢。
-
-
-#### DNS Setting
-[https://help.github.com/articles/setting-up-an-apex-domain/](https://help.github.com/articles/setting-up-an-apex-domain/)
+Theme from：https://github.com/Huxpro/huxpro.github.io

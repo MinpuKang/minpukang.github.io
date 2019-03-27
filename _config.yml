@@ -1,67 +1,113 @@
 # Site settings
 title: 琉璃康康
-header-img: "img/home.jpg"
-tagline: "HK"  
-description: "琉璃苣的花语是勇气|琉璃康康"  
-baseurl: ""
-url: "http://www.hk314.top"
+SEOTitle: 琉璃康康的博客 | 琉璃康康
+header-img: img/home.jpg
+email: kangminpu@126.com
+description: "琉璃苣的花语是勇气 | 琉璃康康"
+keyword: "琉璃康康, 康康, 博客, 个人网站, 摄影, 旅行"
+url: "http://www.hk314.top"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-# About/contact
-owner: 
-  name: " HK"
-  email: kangminpu@126.com
-  bio: "琉璃康康"
+# Publish posts or collection documents with a future date.
+future: true
 
-# Data
-#gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon_new.png
 
-douban_username:  
-twitter_username: 
-github_username: MinpuKang
-facebook_username: 
+# SNS settings
+RSS: false
 weibo_username: kangminpu
 zhihu_username: liulikangkang
+github_username: MinpuKang
 loft_username: liulikangkang
 tuchong_username: liulikangkang
+#twitter_username:   
+#facebook_username:  
+#linkedin_username:  firstname-lastname-idxxxx
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
 
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "琉璃康康"
-      header-img: "img/post.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : hk
-  disqus :
-      short_name : hk
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: 
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# Links to include in footer navigation
 
-theme: jekyll-theme-cayman
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: hux
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "To be a better man<br>如猛虎细嗅蔷薇"
+sidebar-avatar: /img/avatar-mk.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # }
+]
