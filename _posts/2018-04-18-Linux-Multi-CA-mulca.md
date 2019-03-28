@@ -173,10 +173,7 @@ openssl x509 -in $sub_ca_file -text -noout
 另外在openssl的提问中开发人员提到了在新的1.1.1版本中，将会有一个新的叫做STORE的功能来解决这个问题并给了输出示例，感觉非常完美，敬请期待：[Multi-CAs in one file cannot be listed out #5962](https://github.com/openssl/openssl/issues/5962#issuecomment-382290344)
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
-
-<p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
 

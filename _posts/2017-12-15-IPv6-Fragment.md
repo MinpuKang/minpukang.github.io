@@ -180,11 +180,8 @@ PL.orig=8*346+(228-8)=2988
 - *[RFC 2463: Internet Control Message Protocol (ICMPv6)](https://tools.ietf.org/html/rfc2463)*
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
-
-<p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRontyDibvmebPia1u5CHq5ZlPdOXWGib3tu6cEaJoAAu64KLTpMTXuicetAibg/0?wx_fmt=png
   [2]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eBZxn3Xk7ZcEECps6CLmiaibKoqFI0Bo5xgfOe89vJCGzm5A0SbvibMO4l22bbdovjfYOOjj8rib71IFw/0?wx_fmt=png

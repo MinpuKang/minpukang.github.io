@@ -186,11 +186,8 @@ Mac破解Photoshop软件下载链接：[http://pan.baidu.com/s/1cLawhC](http://p
 其他Mac下的Adobe软件可以关注公众号后留言或者公众号文章回复咨询。
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
-
-<p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eADRGLg8pP0UTYFgxf7ic1ADxuF7ibzZVd1kb3zEeZpvrZQap8waaAzYialn7pFl3HMs7RwUcibPicWz2A/0?wx_fmt=jpeg
   [2]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD3anvFetwgNHv3X1AiaXIzWPvazEMIEralm9vs42XsVfoniaXRCSkSpNpz9icsIYFgq84Eic2whLdAfg/0?wx_fmt=jpeg

@@ -113,11 +113,8 @@ C这个时候出来说：“前方路途险峻，女施主就不要去啦，贫�
 大家周末愉快～
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
-
-<p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eCz7Nm9VolHPcmO0shzsg7f2QODetb06WjzwqEWLhEnUWqiaureW9xKHg9VjEXIAm3wtWclZWsDpMA/0?wx_fmt=png
   [2]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eCz7Nm9VolHPcmO0shzsg7f5OibokhMT1pOP0rEefYMniaFTaKoyVQNkibKaQZMQbC3G84MkicQpcI9qg/0?wx_fmt=png

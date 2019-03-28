@@ -61,7 +61,7 @@ PS：欢迎大家下载图片设置壁纸呦，比如这样，还是蛮适合的
 也可以关注我的图虫，下载无码高清图：琉璃康康。
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCWGfogH1kCOp0ibWVeTp1zeNjx7VX7vibw55MtRib0Ierc73acRloVFoRUVLJCNQrpWjtr1EdiaJSWEw/0?wx_fmt=jpeg

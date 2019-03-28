@@ -62,11 +62,8 @@ img{
 去年的[遇见那片樱花海](http://minpukang.github.io/blog/2018/04/21/Japan-Sakura/)有更详细的介绍，不要错过呦^_^
 
 ------------
-<p align="center">欢迎关注公众号：</p>
+<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%"/>
-
-<p align="center">感觉内容不错，读后有收获？欢迎小额赞助：</p>
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAzA577Ce49rCLiby9EtT195GRiaqKCT6QCQ5Weia9OZD72MJz4ABlqAy1gbHepk5hHM464hCiarQRI7w/0?wx_fmt=jpeg" width="30%"/>
 
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDHjuTI5yFbFfLzTkEYeFKicjSghHwsfHXNHxXicc3iakmrY3iaaDrlnHJS087ol9rZQYKrKG5BrZ44Yw/0?wx_fmt=jpeg
   [2]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eDHjuTI5yFbFfLzTkEYeFKicaHhONDjKMAiciaia9ic7lBRmic5CqUrL4quevB8rdDqZL9tKIsLyojXPhfQ/0?wx_fmt=jpeg
