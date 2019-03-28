@@ -105,12 +105,9 @@ page-mathjax: false
 
 
 # Friends
-friends: [
-    {
+#friends: [
+#    {
     #     title: "Su",
     #     href: "http://su.gallery/"
-    # },{
-        title: "iDom",
-        href: "https://idom.me"
-    }
-]
+    # }
+#]
