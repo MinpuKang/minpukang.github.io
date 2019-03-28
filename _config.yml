@@ -5,7 +5,7 @@ header-img: img/home.jpg
 email: kangminpu@126.com
 description: "琉璃苣的花语是勇气 | 琉璃康康"
 keyword: "琉璃康康, 康康, 博客, 个人网站, 摄影, 旅行"
-url: "http://www.hk314.top"              # your host, for absolute URL
+url: "https://hk314.top"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
