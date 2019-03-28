@@ -1,34 +1,30 @@
 ---
 layout: page
-description: "琉璃苣的花语是勇气"
+description: "做一个快乐的摄影小白"
 ---
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?2e44f40e28074ddc7583ac0fff5b0032";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            
+        <h2 class="post-title">
             {{ post.title }}
         </h2>
-        {% if post.description %}
+        {% if post.subtitle %}
         <h3 class="post-subtitle">
-            {{ post.description }}
+            {{ post.subtitle }}
         </h3>
         {% endif %}
         <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:150 }}
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+                {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
         </div>
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
 
 <!--qr code
