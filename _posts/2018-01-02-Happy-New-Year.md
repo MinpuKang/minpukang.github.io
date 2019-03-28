@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 在东京跨年
-date: 2018-01-02
-categories: blog
-tags: [日本, 跨年]
-description: 日本把春节新年改成了公历，所以氛围自然不一般～
+layout:     post
+title:      在东京跨年
+date:       2018-01-02
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 跨年
 ---
 
 <style>

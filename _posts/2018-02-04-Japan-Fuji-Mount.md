@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 富士山之行
-date: 2018-02-04
-categories: blog
-tags: [日本, 富士山]
-description: 富士圣岳的美
+layout:     post
+title:      富士山之行
+date:       2018-02-04
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 富士山
 ---
 
 <style>

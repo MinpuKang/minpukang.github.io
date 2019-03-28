@@ -1,10 +1,11 @@
 ---
-layout: post
-title: 摄影稳定剂——三脚架
-date: 2018-12-09
-categories: blog
-tags: [摄影]
-description: 行云如流水！
+layout:     post
+title:      摄影稳定剂——三脚架
+date:       2018-12-09
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
 ---
 
 <style>

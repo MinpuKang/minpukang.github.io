@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 当一个文件中有个证书链
-date: 2018-04-18
-categories: blog
-tags: [Linux, Openssl, CA, mulca]
-description: 单一的存在并不代表孤独！
+layout:     post
+title:      当一个文件中有个证书链
+date:       2018-04-18
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - Linux
+    - Openssl
 ---
 
 <style>

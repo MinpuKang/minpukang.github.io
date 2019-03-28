@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 秋天的色彩
-date: 2018-10-20
-categories: blog
-tags: [摄影]
-description: 最色彩缤纷的季节已经来了
+layout:     post
+title:      秋天的色彩
+date:       2018-10-20
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
+    - 秋天
 ---
 
 <style>
@@ -17,7 +19,7 @@ img{
 
 <meta name="referrer" content="never">
 
-今天，因为种种接口错过了最初的计划——横山寺一游，最终选择了闲逛一下曾经的大学校园。
+今天，因为种种借口错过了最初的计划——横山寺一游，最终选择了闲逛一下曾经的大学校园。
 
 到今天整整在大连十年五十一天了，这样算来高中毕业十年整了，不知道小伙伴是否还记得曾经相约的十年聚，希望我们不要错过。
 

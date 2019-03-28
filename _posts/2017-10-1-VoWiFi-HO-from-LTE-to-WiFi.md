@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 从LTE到Wi-Fi的切换过程
-date: 2017-10-01
-categories: blog
-tags: [通信, WiFi]
-description: 我不知道下一个会话(Session)会建立在哪里？会走怎么样的路？
+layout:     post
+title:      从LTE到Wi-Fi的切换过程
+date:       2017-10-01
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - WiFi
 ---
 
 <style>

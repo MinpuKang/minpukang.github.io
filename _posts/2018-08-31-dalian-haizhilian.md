@@ -1,10 +1,13 @@
 ---
-layout: post
-title: 玩转大连海之恋浴场，来一波烧烤趴
-date: 2018-08-31
-categories: blog
-tags: [大连, 旅行, 摄影]
-description: 这里应该是大连为数不多的人造极细沙滩了！
+layout:     post
+title:      玩转大连海之恋浴场，来一波烧烤趴
+date:       2018-08-31
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 大连
+    - 摄影
+    - 旅行
 ---
 
 <style>

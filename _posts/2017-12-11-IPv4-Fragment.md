@@ -1,10 +1,12 @@
 ---
-layout: post
-title: IPv4数据包的分片和重组
-date: 2017-12-11
-categories: blog
-tags: [通信, IP]
-description: 大不了就切一下
+layout:     post
+title:      IPv4数据包的分片和重组
+date:       2017-12-11
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - IP
 ---
 
 <style>

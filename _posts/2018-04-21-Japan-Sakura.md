@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 遇见那片樱花海
-date: 2018-04-21
-categories: blog
-tags: [日本, 樱花季]
-description: 残缺的完美反而让你更加留恋
+layout:     post
+title:      遇见那片樱花海
+date:       2018-04-21
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 樱花季
 ---
 
 <style>

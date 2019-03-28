@@ -1,10 +1,12 @@
 ---
-layout: post
-title: MAC下破解安装Photoshop CC 2015
-date: 2017-08-30
-categories: blog
-tags: [MAC, Photoshop]
-description: 后期也是摄影的一部分！
+layout:     post
+title:      MAC下破解安装Photoshop CC 2015
+date:       2017-08-30
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - MAC
+    - Photoshop
 ---
 
 <style>

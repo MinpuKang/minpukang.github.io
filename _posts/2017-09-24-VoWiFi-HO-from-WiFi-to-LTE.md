@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 从Wi-Fi到LTE的切换过程
-date: 2017-09-24
-categories: blog
-tags: [通信, WiFi]
-description: 移动是通信中必然和不可或缺的过程！
+layout:     post
+title:      从Wi-Fi到LTE的切换过程
+date:       2017-09-24
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - WiFi
 ---
 
 <style>

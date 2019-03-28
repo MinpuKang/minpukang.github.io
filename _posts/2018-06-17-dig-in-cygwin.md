@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Cygwin中无法使用dig的一种解决方案
-date: 2018-06-17
-categories: blog
-tags: [cygwin, dig]
-description: dig dig dig dig，一休哥！
+layout:     post
+title:      Cygwin中无法使用dig的一种解决方案
+date:       2018-06-17
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - cygwin
+    - dig
 ---
 
 <style>

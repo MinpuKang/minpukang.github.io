@@ -1,11 +1,13 @@
 ---
-layout: post
-title: 飞往霓虹之国
-date: 2017-09-03
-categories: blog
-tags: [日本]
-description: 向着下一个地点——日本——进发！
+layout:     post
+title:      飞往霓虹之国
+date:       2017-09-03
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
 ---
+
 
 <style>
 img{

@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Linux下树状显示文件夹结构的一个脚本
-date: 2017-12-03
-categories: blog
-tags: [Linux, tree]
-description: 一行命令，一棵树！
+layout:     post
+title:      Linux下树状显示文件夹结构的一个脚本
+date:       2017-12-03
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - Linux
+    - tree
 ---
 
 <style>

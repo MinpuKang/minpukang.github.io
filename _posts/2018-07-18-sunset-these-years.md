@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 看那夕阳片片红
-date: 2018-07-18
-categories: blog
-tags: [摄影, 日落]
-description: 夕阳无限好，皆因尽黄昏！
+layout:     post
+title:      看那夕阳片片红
+date:       2018-07-18
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
+    - 日落
 ---
 
 <style>

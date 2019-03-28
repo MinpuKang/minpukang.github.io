@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Wi-Fi Calling之多设备的使用和5G时的构架
-date: 2017-10-14
-categories: blog
-tags: [通信, WiFi]
-description: 越来越多的设备，也是越来越多的羁绊！
+layout:     post
+title:      Wi-Fi Calling之多设备的使用和5G时的构架
+date:       2017-10-14
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - WiFi
 ---
 
 <style>

@@ -5,7 +5,7 @@ header-img: img/home.jpg
 email: kangminpu@126.com
 description: "琉璃苣的花语是勇气 | 琉璃康康"
 keyword: "琉璃康康, 康康, 博客, 个人网站, 摄影, 旅行"
-url: "https://hk314.top"              # your host, for absolute URL
+url: "http://hk314.top"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -63,7 +63,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: minpukangkang
+disqus_username: mingpukangkang
 
 # Netease settings
 netease_comment: false
@@ -75,7 +75,7 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-137163479-1'            # Format: UA-xxxxxx-xx
 ga_domain: hk314.top
 
 

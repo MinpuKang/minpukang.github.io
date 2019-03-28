@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Wi-Fi Calling到底漫没漫游？
-date: 2017-09-21
-categories: blog
-tags: [通信, WiFi]
-description: 漫游无国界！
+layout:     post
+title:      Wi-Fi Calling到底漫没漫游？
+date:       2017-09-21
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - WiFi
 ---
 
 <style>

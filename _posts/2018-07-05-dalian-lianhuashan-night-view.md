@@ -1,11 +1,14 @@
 ---
-layout: post
-title: 【大连】制高点的夜太美
-date: 2018-07-05
-categories: blog
-tags: [摄影, 夜景]
-description: 360度无死角的开阔
+layout:     post
+title:      【大连】制高点的夜太美
+date:       2018-07-05
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
+    - 夜景
 ---
+
 
 <style>
 img{

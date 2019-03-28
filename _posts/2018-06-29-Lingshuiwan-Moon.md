@@ -1,11 +1,15 @@
 ---
-layout: post
-title: 海上生明月
-date: 2018-06-29
-categories: blog
-tags: [摄影]
-description: 看到的那一刻有种琴瑟和鸣之感也
+layout:     post
+title:      海上生明月
+date:       2018-06-29
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 大连
+    - 摄影
+    - 月亮
 ---
+
 
 <style>
 img{

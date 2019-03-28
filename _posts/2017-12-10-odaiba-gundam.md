@@ -1,10 +1,11 @@
 ---
-layout: post
-title: 台场之高达show
-date: 2017-12-10
-categories: blog
-tags: [日本]
-description: 高达show
+layout:     post
+title:      台场之高达show
+date:       2017-12-10
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
 ---
 
 <style>

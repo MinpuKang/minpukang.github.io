@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Linux关于xxx^M导致Shell程序编译错误
-date: 2018-01-09
-categories: blog
-tags: [Linux, Shell]
-description: 任何一种错误都应该可以找到原因，但是深究总会触及到一些不可思议的东西
+layout:     post
+title:      Linux关于xxx^M导致Shell程序编译错误
+date:       2018-01-09
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - Linux
+    - Shell
 ---
 
 <style>

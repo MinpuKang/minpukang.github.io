@@ -1,10 +1,13 @@
 ---
-layout: post
-title: 台场之彩虹桥花火宴
-date: 2017-12-17
-categories: blog
-tags: [摄影, 日本, 夜景]
-description: 烟火，一声响，一炸开，一瞬逝，一段烟火生
+layout:     post
+title:      台场之彩虹桥花火宴
+date:       2017-12-17
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 摄影
+    - 夜景
 ---
 
 <style>

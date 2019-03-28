@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 换换Cygwin的Terminal吧
-date: 2017-12-30
-categories: blog
-tags: [Linux, cygwin]
-description: 让cygwin的使用更加方便吧
+layout:     post
+title:      换换Cygwin的Terminal吧
+date:       2017-12-30
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - Linux
+    - cygwin
 ---
 
 <style>

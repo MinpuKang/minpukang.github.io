@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Linux来创建一个-rf文件吧(奸笑)
-date: 2017-12-06
-categories: blog
-tags: [Linux, rm]
-description: 生活的乐趣就是不断的尝试^_^
+layout:     post
+title:      Linux来创建一个-rf文件吧
+date:       2017-12-06
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - Linux
+    - rm
 ---
 
 <style>

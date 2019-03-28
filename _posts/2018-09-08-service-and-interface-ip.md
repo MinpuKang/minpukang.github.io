@@ -1,11 +1,14 @@
 ---
-layout: post
-title: 业务地址和接口地址？傻傻分不清楚
-date: 2018-09-08
-categories: blog
-tags: [通信, IP]
-description: 在对的时间找到对的人
+layout:     post
+title:      业务地址和接口地址？傻傻分不清楚
+date:       2018-09-08
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - IP
 ---
+
 
 <style>
 img{

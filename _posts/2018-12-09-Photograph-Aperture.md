@@ -1,10 +1,11 @@
 ---
-layout: post
-title: 摄影三要素——光圈
-date: 2018-12-09
-categories: blog
-tags: [摄影]
-description: 光圈是成反比的存在！
+layout:     post
+title:      摄影三要素——光圈
+date:       2018-12-09
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
 ---
 
 <style>

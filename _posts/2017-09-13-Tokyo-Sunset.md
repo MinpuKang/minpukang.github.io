@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 用慢门，记录一个绚丽的晚霞
-date: 2017-09-13
-categories: blog
-tags: [日本, 晚霞, 摄影]
-description: 漫天的紫红色霞光，伴随着人工的灯光点点，倒影在河水中水天一色！
+layout:     post
+title:      慢门晚霞
+date:       2017-09-13
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 摄影
 ---
 
 <style>

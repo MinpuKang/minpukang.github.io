@@ -1,10 +1,12 @@
 ---
-layout: post
-title: IPv6数据包的分片和重组
-date: 2017-12-15
-categories: blog
-tags: [通信, IP]
-description: IPv6是一个神奇的东西
+layout:     post
+title:      IPv6数据包的分片和重组
+date:       2017-12-15
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
+    - IP
 ---
 
 <style>

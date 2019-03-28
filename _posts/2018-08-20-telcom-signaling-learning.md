@@ -1,10 +1,11 @@
 ---
-layout: post
-title: 通信新人如何学信令？
-date: 2018-08-20
-categories: blog
-tags: [通信, 信令]
-description: 任何一次触发都会引发一系列的效应
+layout:     post
+title:      通信新人如何学信令？
+date:       2018-08-20
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 通信
 ---
 
 <style>

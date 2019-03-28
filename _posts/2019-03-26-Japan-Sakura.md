@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 又到一年樱花季
-date: 2019-03-26
-categories: blog
-tags: [日本, 樱花季]
-description: 一年匆匆过，再遇樱花时？
+layout:     post
+title:      又到一年樱花季
+date:       2019-03-26
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 日本
+    - 樱花季
 ---
 
 <style>

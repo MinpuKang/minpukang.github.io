@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Chrome插件之一键Top
-date: 2017-10-28
-categories: blog
-tags: [应用]
-description: 回到Top更迅速！
+layout:     post
+title:      Chrome插件之一键Top
+date:       2017-10-28
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 应用
 ---
 
 <style>
