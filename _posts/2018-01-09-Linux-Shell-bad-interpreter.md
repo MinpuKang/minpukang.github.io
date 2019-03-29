@@ -2,6 +2,7 @@
 layout:     post
 title:      Linux关于xxx^M导致Shell程序编译错误
 date:       2018-01-09
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

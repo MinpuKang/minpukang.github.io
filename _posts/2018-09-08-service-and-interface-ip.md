@@ -2,6 +2,7 @@
 layout:     post
 title:      业务地址和接口地址？傻傻分不清楚
 date:       2018-09-08
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

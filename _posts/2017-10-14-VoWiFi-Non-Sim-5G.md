@@ -2,6 +2,7 @@
 layout:     post
 title:      Wi-Fi Calling之多设备的使用和5G时的构架
 date:       2017-10-14
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

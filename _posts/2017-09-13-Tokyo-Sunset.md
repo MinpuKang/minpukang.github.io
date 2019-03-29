@@ -2,6 +2,7 @@
 layout:     post
 title:      慢门晚霞
 date:       2017-09-13
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

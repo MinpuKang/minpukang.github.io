@@ -2,6 +2,7 @@
 layout:     post
 title:      飞往霓虹之国
 date:       2017-09-03
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

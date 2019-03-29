@@ -3,24 +3,57 @@ layout: default
 title: 404
 hide-in-nav: true
 description: "这是一个未知的世界"
-header-img: "img/404-bg.jpg"
+header-img: "img/404.jpg"
 permalink: /404.html
 ---
 
-<p>哇哦～欢迎来到火星～哈哈～。</p>
+<!-- Page Header -->
+<header class="intro-header"
+  style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" id="tag-heading">
+          <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+          <span class="subheading">{{ page.description }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<style type="text/css" media="screen">
+  .main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 50px auto 40px auto;
+    width: 600px;
+    text-align: center;
+  }
 
+  .main-title {
+    width: 800px;
+    position: relative;
+    left: -100px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0px 0 50px 0;
+    text-shadow: 0 1px 0 #fff;
+  }
 
-  <style>
-    pre {
-          background: none;
-          border: none;
-    }
-  </style>
+  .main-p {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+</style>
+<div class="main">
 
-  <pre>         
----x-----mm--
-      /^(  )^\
-      \,(..),/        Oops...
-        V~~V                     
-一定是发生了什么不可思议的的事情....
-    </pre>
+  <h1 class="main-title">404</h1>
+  <p class="main-p">哇哦～欢迎来到火星～哈哈～</p>
+
+  <p class="main-p">
+    一定是发生了什么不可思议的的事情....
+  </p>
+  <a class="main-p" href="{{ site.url }}"><strong>Home</strong></a>
+</div>

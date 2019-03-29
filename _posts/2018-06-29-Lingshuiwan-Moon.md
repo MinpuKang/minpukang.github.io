@@ -2,6 +2,7 @@
 layout:     post
 title:      海上生明月
 date:       2018-06-29
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -2,6 +2,7 @@
 layout:     post
 title:      当一个文件中有个证书链
 date:       2018-04-18
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -2,6 +2,7 @@
 layout:     post
 title:      IPv4数据包的分片和重组
 date:       2017-12-11
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -2,6 +2,7 @@
 layout:     post
 title:      台场之彩虹桥花火宴
 date:       2017-12-17
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

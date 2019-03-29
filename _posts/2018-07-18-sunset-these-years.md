@@ -2,6 +2,7 @@
 layout:     post
 title:      看那夕阳片片红
 date:       2018-07-18
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

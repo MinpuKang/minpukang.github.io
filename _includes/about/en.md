@@ -8,7 +8,7 @@ img{
 
 <meta name="referrer" content="never">
 
-I am Minpu Kang, means citizen's servant which should be official, but now to be an engineer and service to everyone in the world in Telecom Communicaiton.
+I am Minpu Kang, means citizen's servant which should be official, but now to be an engineer and service to everyone in the world using Telecom Communicaiton.
 
 LiuLiKangKang is name used in Internet, LiuLi is short of Liuliju a kind of flower which has meaning of courage and KangKang is called by friends.
 
@@ -16,15 +16,15 @@ Location: Dalian, China
 
 Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
-Wechat Official Accounts：[七禾页话（qiheyehk）](http://mp.weixin.qq.com/profile?src=3&timestamp=1553770619&ver=1&signature=bzC02M5Sz61WnRfi9OL2zH7Z1AAGUQUwIRXF3O0ZhK0BRt4TA7spLzLSYF4*B8tXNStqsPZGu3wW0mdTz8ZzUQ==)
+Wechat Official Accounts：七禾页话（qiheyehk）
 
-Tuchong: [琉璃康康](https://liulikangkang.tuchong.com/)
+Tuchong: <a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康康</a>
 
 ### Profession:
 
-- 1. 5-Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
-- 2. Familiar with Linux and code with shell for daily task.
-- 3. Like coding, C#, Shell and Python are better.
+  1.5-Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
+  2.Familiar with Linux and code with shell for daily task.
+  3.Like coding, C#, Shell and Python are better.
 
 
 ### Hobbies:
@@ -35,7 +35,7 @@ Tuchong: [琉璃康康](https://liulikangkang.tuchong.com/)
 
 
 ------------
-Here is a photo in Guangzhou, hope you like.
+
 ![广州小蛮腰][1]
 
 

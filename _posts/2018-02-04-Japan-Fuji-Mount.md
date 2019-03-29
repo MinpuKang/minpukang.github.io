@@ -2,6 +2,7 @@
 layout:     post
 title:      富士山之行
 date:       2018-02-04
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

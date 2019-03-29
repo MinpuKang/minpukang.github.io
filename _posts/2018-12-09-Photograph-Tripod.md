@@ -2,6 +2,7 @@
 layout:     post
 title:      摄影稳定剂——三脚架
 date:       2018-12-09
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

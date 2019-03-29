@@ -34,7 +34,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {% if include.short %}
+                <div class="post-heading" id="tag-heading">
+                {% else %}
                 <div class="post-heading">
+                {% endif %}
                     <div class="tags">
                         {% for tag in page.tags %}
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
@@ -43,7 +47,13 @@
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">Posted by 
+                        {% if page.author %}
+                        <a href="{{ site.url }}">{{ page.author }}</a>
+                        {% else %}
+                        <a href="{{ site.url }}">{{ site.title }}</a>
+                        {% endif %} on {{ page.date | date: "%B %-d, %Y" }}
+                    </span>
                 </div>
             </div>
         </div>
@@ -72,7 +82,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {% if include.short %}
+                <div class="post-heading" id="tag-heading">
+                {% else %}
                 <div class="post-heading">
+                {% endif %}
                     <div class="tags">
                         {% for tag in page.tags %}
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>

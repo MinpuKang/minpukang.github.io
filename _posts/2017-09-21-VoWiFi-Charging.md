@@ -2,6 +2,7 @@
 layout:     post
 title:      Wi-Fi Calling到底漫没漫游？
 date:       2017-09-21
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

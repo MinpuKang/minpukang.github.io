@@ -2,6 +2,7 @@
 layout:     post
 title:      从Wi-Fi到LTE的切换过程
 date:       2017-09-24
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

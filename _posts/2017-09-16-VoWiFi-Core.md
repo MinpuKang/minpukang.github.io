@@ -2,6 +2,7 @@
 layout:     post
 title:      咦？我用Wi-Fi打了个Call
 date:       2017-09-16
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

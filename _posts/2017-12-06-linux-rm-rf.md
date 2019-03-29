@@ -2,6 +2,7 @@
 layout:     post
 title:      Linux来创建一个-rf文件吧
 date:       2017-12-06
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

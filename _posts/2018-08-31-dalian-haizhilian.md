@@ -2,6 +2,7 @@
 layout:     post
 title:      玩转大连海之恋浴场，来一波烧烤趴
 date:       2018-08-31
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -14,16 +14,16 @@ img{
 
 Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
-个人公众号：[七禾页话（qiheyehk）](http://mp.weixin.qq.com/profile?src=3&timestamp=1553770619&ver=1&signature=bzC02M5Sz61WnRfi9OL2zH7Z1AAGUQUwIRXF3O0ZhK0BRt4TA7spLzLSYF4*B8tXNStqsPZGu3wW0mdTz8ZzUQ==)
+个人公众号：七禾页话（qiheyehk）
 
-图虫：[琉璃康康](https://liulikangkang.tuchong.com/)
+图虫：<a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康康</a>
 
 
 ### 从事行业：
 
-- 1.从事通信行业五年，专注通信核心网，熟悉GRPS、EPC和整个Wi-Fi方案的信令流程，以及云和虚拟化。
-- 2.熟悉Linux的维护工作，熟悉常用命令，经常通过shell编程来方便工作。
-- 3.热爱编程，有宽度木有深度，从大学学习的C、C#、Java等到之后学习了Shell、Python、Ruby、Lua、VBA等等，都是只知皮毛，比较熟悉的是C#做工具和网站、shell来简化各种运维工作，不过所有的都在研习的路上。
++ 1.从事通信行业五年，专注通信核心网，熟悉GRPS、EPC和整个Wi-Fi方案的信令流程，以及云和虚拟化。
++ 2.熟悉Linux的维护工作，熟悉常用命令，经常通过shell编程来方便工作。
++ 3.热爱编程，有宽度木有深度，从大学学习的C、C#、Java等到之后学习了Shell、Python、Ruby、Lua、VBA等等，都是只知皮毛，比较熟悉的是C#做工具和网站、shell来简化各种运维工作，不过所有的都在研习的路上。
 
 
 ### 爱好：
@@ -33,7 +33,7 @@ Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 - 游泳：小时候就知道狗刨，大学开始学习游泳，现在蛙泳、自由泳、蝶泳（额，蝶的囫囵吞枣）都能来几手。
 
 ------------
-最后放一张广州小蛮腰的日落，希望喜欢～
+
 ![广州小蛮腰][1]
 
 

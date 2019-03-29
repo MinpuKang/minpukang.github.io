@@ -2,6 +2,7 @@
 layout:     post
 title:      遇见那片樱花海
 date:       2018-04-21
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

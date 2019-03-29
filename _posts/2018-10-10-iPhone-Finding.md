@@ -2,6 +2,7 @@
 layout:     post
 title:      我要找到你，亲爱的手机
 date:       2018-10-10
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

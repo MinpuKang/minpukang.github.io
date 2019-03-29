@@ -2,6 +2,7 @@
 layout:     post
 title:      Chrome插件之一键Top
 date:       2017-10-28
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

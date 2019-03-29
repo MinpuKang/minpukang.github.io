@@ -2,6 +2,7 @@
 layout:     post
 title:      摄影三要素——光圈
 date:       2018-12-09
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -2,6 +2,7 @@
 layout:     post
 title:      秋天的色彩
 date:       2018-10-20
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

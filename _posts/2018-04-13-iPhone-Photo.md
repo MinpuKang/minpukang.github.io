@@ -2,6 +2,7 @@
 layout:     post
 title:      如何删除iPhone里的“来自我的mac”
 date:       2018-04-13
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

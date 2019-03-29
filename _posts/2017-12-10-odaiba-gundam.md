@@ -2,6 +2,7 @@
 layout:     post
 title:      台场之高达show
 date:       2017-12-10
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

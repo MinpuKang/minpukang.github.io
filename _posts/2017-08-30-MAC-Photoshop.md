@@ -2,6 +2,7 @@
 layout:     post
 title:      MAC下破解安装Photoshop CC 2015
 date:       2017-08-30
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

@@ -2,6 +2,7 @@
 layout:     post
 title:      又到一年樱花季
 date:       2019-03-26
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:

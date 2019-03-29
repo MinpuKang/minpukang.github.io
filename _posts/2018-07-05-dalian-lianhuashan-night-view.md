@@ -2,6 +2,7 @@
 layout:     post
 title:      【大连】制高点的夜太美
 date:       2018-07-05
+categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:
