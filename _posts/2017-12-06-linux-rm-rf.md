@@ -210,6 +210,6 @@ Linux version 3.10.0-327.el7.x86_64 (builder@kbuilder.dev.centos.org) (gcc versi
 ```
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 

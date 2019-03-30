@@ -105,7 +105,7 @@ img{
 总得让生活多一些情趣，人生嘛，多试一试，玩儿一玩儿吧。
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCicvlGs94wcfS4bHyIsf4Bvvt3aKmYmXhnr7sWx7w3QhFjkWKryYxdyyvIhN1cajhn8h5U9MbE1qw/0?wx_fmt=jpeg

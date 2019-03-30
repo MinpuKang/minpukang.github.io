@@ -109,7 +109,7 @@ img{
 以上！
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [0]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCZ6gG5NJjutfc6ZHJLrS03l9SOZbtcUVZpjg7KpA8mLsSEk8FZjlicsluXXorAoDAKFBIQWDBtr0g/0?wx_fmt=jpeg

@@ -27,7 +27,7 @@ img{
 
 回归主题，今天想总结一下信令学习的一些感悟，可能会有一些偏颇之词，还望大家加以指点。
 
-####1. 信令是什么
+## 1. 信令是什么
 
 什么是信令呢？从字面上看，信就是一种信息，令就是一种命令，所以信令字面意思就是信息命令。
 
@@ -48,13 +48,13 @@ img{
 
 假如你因为没听到或者置若罔闻没有回答，以妈妈的容忍度呼叫你三次，这个就是信令超时重传；此时妈妈已经没有了忍耐力，不继续叫你了，最终的结果就是没饭吃，这个时候信令没有能完成，妈妈就要做troubleshooting来看看你到底出什么问题了(怕不怕)。
 
-####2. 信令中都要完成什么呢？
+## 2. 信令中都要完成什么呢？
 
 首先先聊一个三A的问题——AAA。
 
 这三个A按照顺序分别是Authentication、Authorization和Accounting。
 
-#####2.1 Authentication——“你是谁”
+#### 2.1 Authentication——“你是谁”
 
 Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”的过程。
 
@@ -62,7 +62,7 @@ Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”
 
 在这个过程中，如果你的好朋友“靓丫头”响应了你妈妈的召唤，你妈妈就会想“这是哪儿个妮儿？”，从而验证失败。
 
-#####2.2 Authorization——“要干嘛”
+#### 2.2 Authorization——“要干嘛”
 
 第二个A就是Authorization——授权，授权又是什么鬼？这个就是要完成“要干啥”的过程。
 
@@ -70,13 +70,13 @@ Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”
 
 这就是Authorization——“要干嘛”的过程。
 
-#####2.3 Accounting——“干了多少”
+#### 2.3 Accounting——“干了多少”
 
 最后一个Accounting——核算又是什么玩意呢？这个其实就是要统计“干了多少”。
 
 继续妈妈叫吃饭，因为妈妈的招呼，你不得不跟“靓丫头”约定一会儿再玩儿，然后迅速回家吃了十碗米饭，妈妈一看吃了十碗米饭锅底都没了，决定“明儿得多做一点儿了”，这个“看你吃了十碗米饭”就是一个Accouting的过程。
 
-#####2.4 通信中的信令都干嘛了？
+#### 2.4 通信中的信令都干嘛了？
 
 那么回到本节的问题——信令都要干嘛。
 
@@ -87,7 +87,7 @@ Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”
 
 之后的信令就是一个**你要干嘛**的过程，比如你想上网，那就通过**Update Location Request**和**Response(Answer)**来完成授权，并通过上网APN建立PDN来准备好你要干嘛，PDN建立好之后，你才可以去上网；其中PGW和PCRF交互的过程也包含了鉴权这件小事儿。
 
-#####2.5 通信里的Accounting
+#### 2.5 通信里的Accounting
 那么问题来了，Accounting哪里去了？我们说Accounting就是一个“干了多少”这个问题。
 
 继续那妈妈叫吃饭来说，你得回到家去吃饭了才开始统计吧？通信也一样，你说我想上网了，但是结果你告诉完了之后什么也不干，那就不涉及到“干了多少”这个问题了。
@@ -100,7 +100,7 @@ Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”
 
 这些都是Accounting的内容。
 
-####3.如何学习信令
+## 3.如何学习信令
 
 所以在最开始学习信令的时候，要捋清**你是谁**和**你要干什么**这两个问题，然后抓住谁发起第一个消息，为什么发起这个消息，收到消息之后要干什么等问题，基本就可以事半功倍了。
 
@@ -113,7 +113,7 @@ Authentication就是鉴权，什么是鉴权呢？就是要完成“你是谁”
 
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDu6dhxd49JRRBjCcibUUSickoQzIda16ic3RcicbEB28S5awaUF2nlic9PiajGDOpZraPQBiaVTOFGfbcPQ/0?wx_fmt=png

@@ -43,7 +43,7 @@ img{
 我一般的操作都是整理好一个批次的需要使用google搜索或者下载的内容清单，然后各种搜索VPN，一般VPN都会有几个小时或者几天的免费注册使用时间，趁着免费的时候就把当前时期所有需要的搞好了。【机智^_^】
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [0]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCZ6gG5NJjutfc6ZHJLrS03l9SOZbtcUVZpjg7KpA8mLsSEk8FZjlicsluXXorAoDAKFBIQWDBtr0g/0?wx_fmt=jpeg

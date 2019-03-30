@@ -26,7 +26,7 @@ cygwin可以说是一个很好的在Windows上迅速模拟和学习Unix/Linux的
 
 今天就介绍一下打开其ssh的功能后使用secureCRT等工具来使用cygwin。
 
-##### 1、安装openssh
+#### 1、安装openssh
 一般来说很少有人在默认安装的时候会选择安装这个service，所以第一步就要先安装openssh了，当然如果安装cygwin的时候选择了全安装或者很自然的安装了这个service，那么可以pass这个章节了。
 
 那么如何安装openssh呢？
@@ -99,7 +99,7 @@ net start sshd
 以上。
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eC3PbURGLCuCBfMAgayrOyYlg9ywc8kHnSRUfDy6Haw46ndqMnppElPHYib6lxwm6ZicUy3fZgtEKfg/0?wx_fmt=png

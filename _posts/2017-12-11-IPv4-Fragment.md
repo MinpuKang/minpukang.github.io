@@ -22,7 +22,7 @@ img{
 
 最近这两天在解决一个问题的时候遇到了IP分片的问题，之前总是关注信令的东西，数据面很少研究，也就保持在知道个大概的阶段，但是涉及到VoLTE和VoWiFi的SIP消息时，可以看作为特殊的数据面消息，大小不定，所以就可能碰到IP分片和重组等问题。
 
-#### 1、为什么要分片？
+## 1、为什么要分片？
 虽然伴随着产业的发展，目前网络传输的带宽已经越来越大、越来越不是瓶颈，但是在最开始的设计中因为带宽限制等，就有了太大的数据包如何传输的问题？
 
 比如，运输一个大衣柜（大的数据包），因为城市道路等限高等等以及最终入户时候的电梯和单元门屋门大小的限制等等，从出场到入户必然是一个大问题，那么怎么办呢？
@@ -31,14 +31,14 @@ img{
 
 这样再将分片后的衣柜各个部位独力运输，就不再受限。
 
-#### 2、分片大小有什么规定？——MTU
+## 2、分片大小有什么规定？——MTU
 大衣柜是有自己的标准的，那么对于IP数据包这样的数据流分片要参照什么标准呢？
 
 首先大衣柜的分片因为运输受限，所以在IP中也是因为运输限制导致了分片，那么这个限制一个是固定的带宽（比如马路宽都是标准的），另外就是IP中存在的一个MTU（maximum transmission unit，比如马路上的限高），当数据包长超过MTU的时候就需要分片。
 
 在以太网网络中，默认的MTU是1500。
 
-#### 3、分片和重组的相关定义
+## 3、分片和重组的相关定义
 大衣柜的各个部分都是有对应标准，或者人为标号来规定各个分片的连接方式以方便再次重组。
 
 那么IP网络中是如何定义这种连接的呢？
@@ -96,7 +96,7 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
     first fragment has offset zero.
 ```
 
-#### 4、万变不如一例
+## 4、万变不如一例
 #### 4.1、IPv4分片实例
 例如一个定义了MTU为1280的设备要转发一个数据包长度(Total Length)为3000且包头长IHL（Internet Header Length）为5的IPv4数据包，由于包长受到了MTU的限制，必然要采取分片的流程。
 
@@ -135,7 +135,7 @@ Flags已经表示来此数据包是否为分片包，那么这个包是第几块
 - *[RFC 791: INTERNET PROTOCOL](https://tools.ietf.org/html/rfc791)*
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRonsIGNicMLIlc9GsrMCPxuSjyjd2fFticMDIKRNss2nbEe4WWPF7DDDOIA/0?wx_fmt=png

@@ -33,7 +33,7 @@ img{
 
 那么这是因为什么导致，又如何解决呢？
 
-#### 1、原因
+## 1、原因
 这个是因为Windows下和Linux的换行符不同导致：
 
 1. Windows中默认的换行符是\r\n；
@@ -41,7 +41,7 @@ img{
 
 因此当文件在Windows下编辑之后就会携带\r\n的换行符导致在Linux环境下无法编译，那么如何查看和解决呢？
 
-#### 2、查看
+## 2、查看
 可以是用vi查看文件属性来判断，也可以使用cat命令来直接查看特殊字符。
 
 #### 2.1、使用vi查看
@@ -112,7 +112,7 @@ pwd^M$
 ```
 
 
-#### 3、修改
+## 3、修改
 修改可以通过vi修改文件格式达到目的，也可以使用sed命令进行直接修改：
 
 #### 3.1、vi模式下的修改办法
@@ -146,7 +146,7 @@ sed -i 's/\r//g' filename #直接在原文中替换
 以上。
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
 

@@ -28,7 +28,7 @@ img{
 
 说了些杂七杂八的东西，接下来正题，前几天聊完了IPv4的分片，今天就聊聊IPv6的分片和重组情况。
 
-#### 1、IPv6 Header Format
+## 1、IPv6 Header Format
 首先来看一下RFC2460中定义的如下IPv6 Header Format：
 
 <img src="https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRontyDibvmebPia1u5CHq5ZlPdOXWGib3tu6cEaJoAAu64KLTpMTXuicetAibg/0?wx_fmt=png" width="80%" />
@@ -44,7 +44,7 @@ img{
 
 &ensp;&ensp;&ensp;&ensp;__Note: __在最新的定义中Type 59——No Next Header不再作为Extension Header出现。
 
-#### 2、IPv6和IPv4分片的差异化
+## 2、IPv6和IPv4分片的差异化
 
 #### 2.1、中间节点的处理方式不同
 首先IPv6和IPv4不同的是IPv6只允许在源节点分片和目的节点重组，中间节点路由器只做转发，不再对IPv6数据包重组或再次分片，当收到的分片数据包依然大于PMTU（Path MTU Discovery）的时候，给源端发送ICMPv6的Packet Too Big消息来告知其MTU，消息体如下：
@@ -64,7 +64,7 @@ IPv4中分片之后依然使用IPv4中的Total Length，并且Total Length包含
 
 IPv6中分片之后依然使用Payload Length这个字段，但是此字段不包括IPv6的包头长，但是却包括扩展包头Fragment Header的长度和数据净长度，下边就来聊聊Fragment Header。
 
-#### 3、Fragment Header的介绍
+## 3、Fragment Header的介绍
 首先在IPv6的Header中__Next Header__值需要为__Fragment Header for IPv6（44）__。
 
 根据RFC2460中的定义，Fragment Header格式如下：
@@ -80,7 +80,7 @@ IPv6中分片之后依然使用Payload Length这个字段，但是此字段不�
 5. M flag：数据包中显示为More Fragments，同v4中的MF一样0表示是最后一个分片，1表示非最后分片也就是后续依然还有分片数据包。
 6. Identification：同一个源数据包的分片标识，当源节点发送一个大于MTU的数据包时，对数据包分成若干分片包，此时需要给各个分片包定义一个标识值，并且此标识值必须不同于近期内同一对源节点和目的节点之间其他的分片包的标识值；如果存在Routing header（路由首部）， 那么目的节点是指最终目的节点。
 
-#### 4、如何分片和重组的呢？
+## 4、如何分片和重组的呢？
 #### 4.1、源节点分片数据包
 当源节点决定发送一个数据包，并且大于其设定的MTU时，需要对数据进行分片之后再发送。
 
@@ -129,7 +129,7 @@ __Note: __由于中间节点路由器不针对分片数据包重组和再分片�
       PL.last = 最后一个分片包的Payload Length。
 ```
 
-#### 5、一例解千愁
+## 5、一例解千愁
 
 #### 5.1、IPv6数据包分片
 例如有一个定义了IPv6的节点需要发送Payload Length=1764的数据给另一个IPv6的终节点，要经过一个使用默认MTU=1500的路由器：
@@ -183,7 +183,7 @@ PL.orig=8*346+(228-8)=2988
 - *[RFC 2463: Internet Control Message Protocol (ICMPv6)](https://tools.ietf.org/html/rfc2463)*
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_png/QqiaFS6NT0eDtmPrItAmQ6HUso7zNyRontyDibvmebPia1u5CHq5ZlPdOXWGib3tu6cEaJoAAu64KLTpMTXuicetAibg/0?wx_fmt=png

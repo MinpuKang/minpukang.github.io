@@ -47,7 +47,7 @@ img{
 而这几个月跟妞儿算是形影不离，得了景儿却没有能完全体会后半句的意境；也算是古难全的一个案例了。
 
 ------------
-<p align="center">欢迎关注公众号，摄影，旅行，瞎聊，等等等：</p>
+<p align="center">欢迎关注公众号：七禾页话(qiheyehk)，旅行、摄影。。。</p>
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eD1g2UjYu4VfCGHmbhgVqOAnNnJQfN7ZhRVUCopYOsfpPtIEB95VNEqu8trAxJXzGDg01ka6z6wzQ/0?wx_fmt=jpeg" width="30%" />
 
   [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eCnzGQofzLjA9KAnHw3GCk5EulgQbHOOGE0pSVAkGN2LZLB9jUvfJlOKKN0Y6xUrlwTIrToibUibHZA/0?wx_fmt=jpeg
