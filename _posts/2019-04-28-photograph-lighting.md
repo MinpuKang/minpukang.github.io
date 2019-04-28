@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      漫谈摄影(一)|一门用“光”的艺术
+title:      漫谈摄影|一门用“光”的艺术
 date:       2019-04-28
 categories: blog
 author:     "琉璃康康"
