@@ -1,3 +1,25 @@
+---
+layout:     post
+title:      大连|今年的徒步大会，你参加了吗？
+date:       2019-05-18
+categories: blog
+author:     "琉璃康康"
+header-img: "img/post.jpg"
+tags:
+    - 摄影
+    - 徒步
+---
+
+<style>
+img{
+  display:block;
+  margin:0
+  auto;
+}
+</style>
+
+<meta name="referrer" content="never">
+
 这两天，滨城因为一年一度的徒步大会，燃起了一波徒步潮。
 
 来自“五湖四海”的兄弟姐妹在这个初夏的日子里，漫步在黄海岸边，享受着夏日当头，却有着微风轻拂面的温柔。
