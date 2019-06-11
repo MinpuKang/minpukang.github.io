@@ -82,7 +82,7 @@ ga_domain: hk314.top
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "To be a better man<br>如猛虎细嗅蔷薇"
+sidebar-about-description: "To be a better man<br>如猛虎细嗅蔷薇<br>公众号：七禾页话(qiheyehk)"
 sidebar-avatar: /img/avatar-mk.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
