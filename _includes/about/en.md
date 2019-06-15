@@ -16,13 +16,15 @@ Location: Dalian, China
 
 Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
-Wechat Official Accounts：七禾页话（qiheyehk）
+Wechat Official Accounts：<a href="https://weixin.sogou.com/weixin?type=1&s_from=input&query=qiheyehk&ie=utf8&_sug_=n&_sug_type_=" target="_blank">七禾页话（qiheyehk）</a>
+
+Weibo: <a href="https://weibo.com/kangminpu" target="_blank">琉璃康康</a>
 
 Tuchong: <a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康康</a>
 
 ### Profession:
 
-  1.5-Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
+  1.Several Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
   2.Familiar with Linux and code with shell for daily task.
   3.Like coding, C#, Shell and Python are better.
 
@@ -40,5 +42,4 @@ Tuchong: <a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康�
 
 
   [1]: http://imglf0.nosdn.127.net/img/d1lUUXJDdTYyTEZKN1gwRDMvdmRrT3NZYkptNWo2ZEZKN3hjTm5iQ0pYZlhmaEtvT2hqSWpRPT0.jpg?imageView&thumbnail=3000y2000&type=jpg&quality=96&stripmeta=0&type=jpg
-  [2]: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxNjIyNzM0Mw==&scene=124&#wechat_redirect
 

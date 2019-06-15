@@ -22,7 +22,8 @@ github_username: MinpuKang
 tuchong_username: liulikangkang
 #twitter_username:   
 #facebook_username:  
-#linkedin_username:  firstname-lastname-idxxxx
+linkedin_username: minpukang
+wechatofficial_username: qiheyehk
 
 
 
@@ -63,7 +64,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: mingpukangkang
+#disqus_username: mingpukangkang
 
 # Netease settings
 netease_comment: false

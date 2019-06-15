@@ -14,14 +14,16 @@ img{
 
 Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
-个人公众号：七禾页话（qiheyehk）
+个人公众号：<a href="https://weixin.sogou.com/weixin?type=1&s_from=input&query=qiheyehk&ie=utf8&_sug_=n&_sug_type_=" target="_blank">七禾页话（qiheyehk）</a>
+
+微博：<a href="https://weibo.com/kangminpu" target="_blank">琉璃康康</a>
 
 图虫：<a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康康</a>
 
 
 ### 从事行业：
 
-+ 1.从事通信行业五年，专注通信核心网，熟悉GRPS、EPC和整个Wi-Fi方案的信令流程，以及云和虚拟化。
++ 1.多年从事通信行业，专注通信核心网，熟悉GRPS、EPC和整个Wi-Fi方案的信令流程，以及云和虚拟化。
 + 2.熟悉Linux的维护工作，熟悉常用命令，经常通过shell编程来方便工作。
 + 3.热爱编程，有宽度木有深度，从大学学习的C、C#、Java等到之后学习了Shell、Python、Ruby、Lua、VBA等等，都是只知皮毛，比较熟悉的是C#做工具和网站、shell来简化各种运维工作，不过所有的都在研习的路上。
 
@@ -38,5 +40,3 @@ Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 
 
   [1]: http://imglf0.nosdn.127.net/img/d1lUUXJDdTYyTEZKN1gwRDMvdmRrT3NZYkptNWo2ZEZKN3hjTm5iQ0pYZlhmaEtvT2hqSWpRPT0.jpg?imageView&thumbnail=3000y2000&type=jpg&quality=96&stripmeta=0&type=jpg
-  [2]: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxNjIyNzM0Mw==&scene=124&#wechat_redirect
-
