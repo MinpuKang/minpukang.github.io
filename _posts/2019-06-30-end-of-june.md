@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      六月，再见；七月，安生。
+title:      六月，再见
 date:       2019-06-30
 categories: blog
 author:     "琉璃康康"
