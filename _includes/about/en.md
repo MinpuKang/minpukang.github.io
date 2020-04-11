@@ -10,7 +10,7 @@ img{
 
 I am Minpu Kang, means citizen's servant which should be official, but now to be an engineer and service to everyone in the world using Telecom Communicaiton.
 
-LiuLiKangKang is name used in Internet, LiuLi is short of Liuliju a kind of flower which has meaning of courage and KangKang is called by friends.
+LiuLiKangKang is the name used in Internet, LiuLi is short of Liuliju a kind of flower which has meaning of courage and KangKang is called by friends.
 
 Location: Dalian, China
 
@@ -24,9 +24,11 @@ Tuchong: <a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康�
 
 ### Profession:
 
-  1.Several Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
-  2.Familiar with Linux and code with shell for daily task.
-  3.Like coding, C#, Shell and Python are better.
+  1. Several Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
+
+  2. Familiar with Linux and code with shell for daily task.
+
+  3. Like coding, C#, Shell and Python are better.
 
 
 ### Hobbies:
