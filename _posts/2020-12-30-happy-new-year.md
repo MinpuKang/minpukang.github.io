@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      年鉴｜2020年，宅家安天下
-date:       2019-12-30
+date:       2020-12-30
 categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
@@ -9,7 +9,6 @@ tags:
     - 摄影
     - 年鉴
 ---
-
 
 <style>
 img{
