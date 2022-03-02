@@ -77,7 +77,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-137163479-1'            # Format: UA-xxxxxx-xx
-ga_domain: hk314.top
+ga_domain: http://hk314.top
 
 
 
