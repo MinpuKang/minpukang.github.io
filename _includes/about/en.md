@@ -24,7 +24,7 @@ Tuchong: <a href="https://liulikangkang.tuchong.com/" target="_blank">琉璃康�
 
 ### Profession:
 
-  1. Several Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, Wi-Fi Solution, Cloud and Virtualization.
+  1. Several Years in Telecom Communication, focus on Package Core and familiar with GPRS, EPC, 5G, Wi-Fi Solution, Cloud and Virtualization.
 
   2. Familiar with Linux and code with shell for daily task.
 
