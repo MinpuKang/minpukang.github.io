@@ -26,7 +26,7 @@ img{
 
 那么拥有一套自己的实验环境就相当重要了，因为技术这种东西就是熟能生巧，量的积累就会发生质的变化。
 
-拥有Linux操作环境有很多种办法，比如从Win10开始可以通过subsytem开启Linux子系统的安装，但是因为不属于原生系统，所以有些东西是玩儿不了的，比如docker；还有直接安装cygwin也是一种古老流传下来的操作手段；另外就是在virtualbox或者vmware里安装一个虚拟机。
+拥有Linux操作环境有很多种办法，比如从Win10开始可以通过subsytem开启[Linux子系统](https://mp.weixin.qq.com/s/NOygeTkQlLZFWDzjChfTtQ)的安装，但是因为不属于原生系统，所以有些东西是玩儿不了的，比如docker；还有直接安装[cygwin](https://mp.weixin.qq.com/s/xoQKwqNgbI0aF1S2u0p-xA)也是一种古老流传下来的操作手段；另外就是在virtualbox或者vmware里安装一个虚拟机。
 
 除了安装虚拟机是可以拥有非常原汁原味的Linux外，其他的两种都或多或少有着某些限制，不够原生，另外都要占领本地磁盘，让紧张的硬盘容量又捉襟见肘了。
 
