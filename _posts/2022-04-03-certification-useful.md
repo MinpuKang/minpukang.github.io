@@ -5,7 +5,8 @@ date:       2022-04-03
 categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
-tags:应用
+tags:
+    - 应用
 ---
 
 <style>
