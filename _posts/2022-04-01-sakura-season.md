@@ -6,7 +6,9 @@ categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:
-    - 樱花
+    - 摄影
+    - 旅行
+    - 樱花季
     - 无锡
     - 大连
 ---
