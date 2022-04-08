@@ -39,4 +39,4 @@ Email ：[kangminpu@126.com](mailto:kangminpu@126.com)
 ![广州小蛮腰][1]
 
 
-  [1]: http://imglf0.nosdn.127.net/img/d1lUUXJDdTYyTEZKN1gwRDMvdmRrT3NZYkptNWo2ZEZKN3hjTm5iQ0pYZlhmaEtvT2hqSWpRPT0.jpg?imageView&thumbnail=3000y2000&type=jpg&quality=96&stripmeta=0&type=jpg
+  [1]: https://mmbiz.qpic.cn/mmbiz_jpg/QqiaFS6NT0eAPXYFzic0f9Gsh74V4g8Rb7uHhNByiaWzdc1sKkib8qfvgN0zfqfiaeBjFicibjSuPWpcM7ibhEz9gVH5pw/0?wx_fmt=jpeg
