@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      虚拟化｜聊聊K8s里的Request和Limit和资源单元
+title:      虚拟化｜聊聊K8s里的Request和Limit以及资源单元
 date:       2022-05-12
 categories: blog
 author:     "琉璃康康"
