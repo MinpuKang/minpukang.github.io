@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      通信｜启动一个自己的DNS服务器呀？
-date:       2023-12-02
+date:       2023-12-03
 categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
