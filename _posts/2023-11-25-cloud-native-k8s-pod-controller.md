@@ -6,10 +6,9 @@ categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:
-    - CLoud Native
+    - CLoud
     - 云原生
     - K8s
-    - Kubernetes
 ---
 
 <style>
