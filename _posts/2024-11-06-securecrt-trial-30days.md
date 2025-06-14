@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      应用｜SecureCRT无限续期30天失效了怎么办？附CRT激活工具！
+title:      软件库｜SecureCRT无限续期30天失效了怎么办？附CRT激活工具，MAC和Win都有
 date:       2024-11-06
 categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:
-    - 应用
+    - 软件
     - SecureCRT
 ---
 

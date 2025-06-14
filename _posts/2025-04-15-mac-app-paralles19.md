@@ -6,9 +6,8 @@ categories: blog
 author:     "琉璃康康"
 header-img: "img/post.jpg"
 tags:
-    - MAC
+    - 软件
     - 虚拟机
-    - Paralles
 ---
 
 <style>
